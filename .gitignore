@@ -1,0 +1,25 @@
+# Allow-list: ignore everything at the top level, then let in only the code.
+# Documentation/, research files, PDFs and CLAUDE.md stay internal (never committed).
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/tools/
+!/.github/
+
+# Never commit these, even inside allowed folders
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+.pytest_cache/
+.coverage
+htmlcov/
