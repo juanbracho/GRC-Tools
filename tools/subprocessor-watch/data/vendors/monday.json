@@ -239,15 +239,6 @@
       "location": "Data is processed temporarily and deleted",
       "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
       "date": "2026-11-13"
-    },
-    {
-      "vendor_id": "monday",
-      "subprocessor_id": "workcanvas-workassests",
-      "name_as_listed": "WorkCanvas, WorkAssests,",
-      "purpose": "Full account data",
-      "location": null,
-      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
-      "date": "2026-11-13"
     }
   ]
 }

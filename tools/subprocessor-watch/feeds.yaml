@@ -1,0 +1,13 @@
+# Security-news feeds scanned daily for incident leads (public RSS, read once a day).
+# A lead is only a suggestion; confirmed incidents are added to incidents.yaml by hand, with a source.
+feeds:
+  - name: BleepingComputer
+    url: https://www.bleepingcomputer.com/feed/
+  - name: The Record
+    url: https://therecord.media/feed
+  - name: The Hacker News
+    url: https://feeds.feedburner.com/TheHackersNews
+  - name: DataBreaches.net
+    url: https://databreaches.net/feed/
+  - name: SecurityWeek
+    url: https://www.securityweek.com/feed/

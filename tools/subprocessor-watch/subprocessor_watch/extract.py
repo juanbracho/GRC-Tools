@@ -63,10 +63,20 @@ def extract(html: str, vendor: dict, aliases: dict[str, str]) -> list[dict]:
         cols = spec["columns"]
         min_cells = spec.get("min_cells", cols["name"] + 1)
         for table in tables:
+            continuation = 0  # rows still covered by a merged (rowspan) name cell above
             for tr in table.find_all("tr"):
                 cells = tr.find_all(["td", "th"])
+                if continuation:
+                    continuation -= 1
+                    continue  # extra row of the company above (its name cell spans down)
                 if not cells or all(c.name == "th" for c in cells):
                     continue  # header row
+                name_cell = cells[cols["name"]] if cols["name"] < len(cells) else None
+                if name_cell is not None:
+                    try:
+                        continuation = max(int(name_cell.get("rowspan") or 1), 1) - 1
+                    except ValueError:
+                        continuation = 0
                 if len(cells) < min_cells:
                     continue  # category label or continuation row
                 texts = [_cell_text(c) for c in cells]

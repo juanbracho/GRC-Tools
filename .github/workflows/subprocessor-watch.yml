@@ -1,0 +1,62 @@
+name: Subprocessor Watch (daily)
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # every day at 06:17 UTC
+  workflow_dispatch:         # "Run workflow" button for manual runs
+
+permissions:
+  contents: read             # default for everything; only the job below may write
+
+concurrency:
+  group: subprocessor-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    permissions:
+      contents: write        # needed to commit the updated data
+    defaults:
+      run:
+        working-directory: tools/subprocessor-watch
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0  # v7.1.0
+        with:
+          python-version-file: tools/subprocessor-watch/.python-version
+          cache: pip
+          cache-dependency-path: tools/subprocessor-watch/requirements.txt
+
+      - name: Install dependencies (pinned)
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Run tests, check vendors and news feeds
+        id: watch
+        run: |
+          set +e
+          ./daily.sh
+          echo "status=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Commit updated data (only if something changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data CHANGELOG.md site
+          if git diff --cached --quiet; then
+            echo "No changes today."
+          else
+            git commit -m "Subprocessor Watch: daily update $(date -u +%F)"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      - name: Fail visibly if a test or vendor page failed
+        if: steps.watch.outputs.status != '0'
+        run: |
+          echo "::error::A test failed or a vendor page could not be read. See the 'Run tests' step."
+          exit 1

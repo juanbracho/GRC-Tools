@@ -8,7 +8,7 @@ from pathlib import Path
 
 import yaml
 
-from . import changelog, site
+from . import changelog, leads, site
 from .incidents import load_incidents
 from .fetch import Fetcher
 from .watch import run
@@ -22,6 +22,15 @@ def load_config(root: Path = ROOT) -> tuple[list[dict], dict]:
     return vendors, aliases
 
 
+def _load_leads(data_dir: Path) -> list[dict]:
+    f = data_dir / "incident_leads.json"
+    return json.loads(f.read_text(encoding="utf-8")) if f.exists() else []
+
+
+def _vendor_states(data_dir: Path) -> list[dict]:
+    return [json.loads(p.read_text(encoding="utf-8")) for p in sorted((data_dir / "vendors").glob("*.json"))]
+
+
 def write_outputs(data_dir: Path) -> None:
     """CHANGELOG.md + site/index.html, only rewritten when the content changes."""
     vendor_files = list((data_dir / "vendors").glob("*.json"))
@@ -30,7 +39,8 @@ def write_outputs(data_dir: Path) -> None:
                 default="—")
     incidents = load_incidents(ROOT / "incidents.yaml")
     outputs = {ROOT / "CHANGELOG.md": changelog.render(data_dir, incidents),
-               ROOT / "site" / "index.html": site.render(data_dir, generated=stamp, incidents=incidents)}
+               ROOT / "site" / "index.html": site.render(data_dir, generated=stamp, incidents=incidents,
+                                                         leads=_load_leads(data_dir))}
     for path, text in outputs.items():
         if not path.exists() or path.read_text(encoding="utf-8") != text:
             path.parent.mkdir(parents=True, exist_ok=True)
@@ -42,6 +52,7 @@ def main(argv=None) -> int:
     p.add_argument("--vendor", help="only check this vendor_id")
     p.add_argument("--date", default=dt.datetime.now(dt.UTC).date().isoformat(), help="override today (UTC)")
     p.add_argument("--render-only", action="store_true", help="rebuild CHANGELOG.md and site/ without fetching")
+    p.add_argument("--no-leads", action="store_true", help="skip the security-news scan for incident leads")
     args = p.parse_args(argv)
 
     vendors, aliases = load_config()
@@ -57,6 +68,12 @@ def main(argv=None) -> int:
         fetcher = Fetcher()
         try:
             results = run(vendors, aliases, data_dir, fetcher, args.date)
+            if not args.no_leads and not args.vendor:
+                feeds = yaml.safe_load((ROOT / "feeds.yaml").read_text(encoding="utf-8"))["feeds"]
+                found, feed_errors = leads.run(feeds, _vendor_states(data_dir), load_incidents(ROOT / "incidents.yaml"),
+                                               fetcher.client, data_dir / "incident_leads.json", args.date)
+                print(f"incident leads: {len(found)} in the last {leads.KEEP_DAYS} days"
+                      + (f"  (feeds failed: {', '.join(feed_errors)})" if feed_errors else ""))
         finally:
             fetcher.close()
     write_outputs(data_dir)

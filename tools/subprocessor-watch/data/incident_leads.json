@@ -1,0 +1,39 @@
+[
+  {
+    "id": "ed4a82bfa913",
+    "subprocessor_id": "railway",
+    "name": "Railway",
+    "vendors": [],
+    "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+    "link": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+    "feed": "The Hacker News",
+    "published": "2026-11-11",
+    "words": [
+      "breach",
+      "stolen"
+    ],
+    "first_seen": "2026-11-14",
+    "on_watchlist": true
+  },
+  {
+    "id": "85f075026cda",
+    "subprocessor_id": "fireworks-ai",
+    "name": "Fireworks AI",
+    "vendors": [
+      "Asana",
+      "Figma",
+      "GitHub",
+      "Granola"
+    ],
+    "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
+    "link": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+    "feed": "The Hacker News",
+    "published": "2026-11-10",
+    "words": [
+      "breach",
+      "security incident"
+    ],
+    "first_seen": "2026-11-14",
+    "on_watchlist": true
+  }
+]

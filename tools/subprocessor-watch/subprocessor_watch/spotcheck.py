@@ -1,7 +1,7 @@
 """Spot-check: compare what we extract with the whole live page.
 
 Tests prove we parse the tables we saved. This catches what tests can't:
-tables we never read (like Notion's collapsed sections, debug #3), names we
+tables we never read (like sections hidden behind collapsed toggles), names we
 extracted that aren't on the page, and watchlist companies mentioned outside
 the tables. Read-only: it never writes data.
 

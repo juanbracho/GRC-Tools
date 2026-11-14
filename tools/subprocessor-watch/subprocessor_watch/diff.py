@@ -5,6 +5,8 @@ the parser broke (a page redesign), not that half the suppliers left. We keep
 the previous list and emit no "removed" events.
 """
 
+import re
+
 TRACKED_FIELDS = ("purpose", "location")
 SHRINK_LIMIT = 0.5
 
@@ -30,9 +32,15 @@ def diff(vendor_id: str, previous: dict[str, dict], current: dict[str, dict],
         events.append(_event(vendor_id, sid, "removed", _fields(previous[sid]), None, source, date))
     for sid in sorted(previous.keys() & current.keys()):
         before, after = _fields(previous[sid]), _fields(current[sid])
-        if before != after:
+        if _key(before) != _key(after):
             events.append(_event(vendor_id, sid, "modified", before, after, source, date))
     return events
+
+
+def _key(fields: dict) -> dict:
+    """Comparison key: ignore case, spacing and punctuation, so a dropped full stop
+    or a re-spaced sentence on the vendor's page is not reported as a change."""
+    return {k: re.sub(r"[^a-z0-9]", "", (v or "").lower()) for k, v in fields.items()}
 
 
 def _fields(entry: dict) -> dict:

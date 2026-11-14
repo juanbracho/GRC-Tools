@@ -127,3 +127,9 @@ def test_adding_an_alias_is_not_a_vendor_change(tmp_path):
     r = check_vendor(VENDOR, {"google-vertex-ai": "google"}, tmp_path, FakeFetch(page(*rows)), "2026-11-13")
     assert r["events"] == [] and r["count"] == 4
     assert {e["subprocessor_id"]: e["date"] for e in state(tmp_path)["subprocessors"]}["google"] == "2026-11-12"
+
+
+def test_punctuation_or_case_only_edits_are_not_changes(tmp_path):
+    run(tmp_path, page(*BASE))
+    edited = [(n, p.upper() + ".", l + " ") for n, p, l in BASE]
+    assert run(tmp_path, page(*edited), date="2026-11-13")["events"] == []

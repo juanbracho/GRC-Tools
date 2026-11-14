@@ -32,8 +32,8 @@ def test_aliases_map_variants_to_one_id():
 
 
 @pytest.mark.parametrize("vendor_id, unique", [
-    ("github", 23), ("atlassian", 25), ("asana", 16), ("openai", 16), ("hubspot", 18), ("figma", 44),
-    ("zoom", 22), ("airtable", 23), ("stripe", 34), ("cloudflare", 12), ("monday", 27),
+    ("github", 23), ("atlassian", 26), ("asana", 16), ("openai", 16), ("hubspot", 17), ("figma", 44),
+    ("zoom", 22), ("airtable", 23), ("stripe", 34), ("cloudflare", 12), ("monday", 26),
     # rendered in a browser (Vanta trust centers, Notion); fixtures saved after rendering
     ("anthropic", 22), ("fathom", 30), ("granola", 17), ("notion", 29)])
 def test_real_page_fixtures(vendor_id, unique):
@@ -95,9 +95,26 @@ def test_tables_without_heading_by_position():
     assert list(merged) == ["other"]
 
 
-def test_hubspot_unnamed_ai_provider_is_kept_as_listed():
-    merged = merge_duplicates(extract((FIX / "hubspot.html").read_text(encoding="utf-8"), BY_ID["hubspot"], ALIASES))
-    assert merged["ai-service-provider"]["name_as_listed"] == "AI Service Provider"
+def test_merged_cells_rows_belong_to_the_company_above():
+    html = """<h2>Subs</h2><table><tr><th>Name</th><th>Purpose</th></tr>
+      <tr><td rowspan="2">Google LLC</td><td>reCAPTCHA</td></tr>
+      <tr><td>AI Service Provider</td><td>HubSpot AI</td></tr>
+      <tr><td>Twilio</td><td>SMS</td></tr></table>"""
+    merged = merge_duplicates(extract(html, {"tables": [{"heading": "Subs", "columns": {"name": 0, "purpose": 1}}]}, {}))
+    assert list(merged) == ["google", "twilio"]
+
+
+def test_hubspot_and_monday_continuation_rows_are_not_companies():
+    hub = merge_duplicates(extract((FIX / "hubspot.html").read_text(encoding="utf-8"), BY_ID["hubspot"], ALIASES))
+    mon = merge_duplicates(extract((FIX / "monday.html").read_text(encoding="utf-8"), BY_ID["monday"], ALIASES))
+    assert "ai-service-provider" not in hub and "google" in hub
+    assert not any(k.startswith("workcanvas") for k in mon)
+
+
+def test_atlassian_product_rows_are_not_companies():
+    merged = merge_duplicates(extract((FIX / "atlassian.html").read_text(encoding="utf-8"), BY_ID["atlassian"], ALIASES))
+    assert not any(k.startswith(("applicable", "admin-")) for k in merged)
+
 
 
 def test_notion_reads_all_sections_but_not_own_entities():

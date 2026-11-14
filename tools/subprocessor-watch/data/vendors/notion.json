@@ -4,7 +4,7 @@
   "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
   "status": "ok",
   "status_detail": null,
-  "last_changed": "2026-11-13",
+  "last_changed": "2026-11-14",
   "subprocessors": [
     {
       "vendor_id": "notion",
@@ -55,7 +55,7 @@
       "vendor_id": "notion",
       "subprocessor_id": "browserbase",
       "name_as_listed": "Browserbase, Inc.",
-      "purpose": "Service provider for browser-based web access and automation for AI agents.",
+      "purpose": "Service provider for browser-based web access and automation for AI agents",
       "location": "USA, Spain",
       "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
       "date": "2026-11-13"
@@ -64,7 +64,7 @@
       "vendor_id": "notion",
       "subprocessor_id": "cerebras",
       "name_as_listed": "Cerebras Systems Inc.",
-      "purpose": "Service provider for hosting large language models and embeddings.",
+      "purpose": "Service provider for hosting large language models and embeddings",
       "location": "USA",
       "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
       "date": "2026-11-13"
@@ -107,6 +107,15 @@
     },
     {
       "vendor_id": "notion",
+      "subprocessor_id": "databricks",
+      "name_as_listed": "Databricks, Inc.",
+      "purpose": "Compute infrastructure for data management and analytics",
+      "location": "USA, Germany, Korea, Japan",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-14"
+    },
+    {
+      "vendor_id": "notion",
       "subprocessor_id": "deepl",
       "name_as_listed": "DeepL",
       "purpose": "Translation services",
@@ -118,7 +127,7 @@
       "vendor_id": "notion",
       "subprocessor_id": "exa",
       "name_as_listed": "Exa",
-      "purpose": "Service provider for providing web search results.",
+      "purpose": "Service provider for providing web search results",
       "location": "USA",
       "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
       "date": "2026-11-13"
@@ -253,7 +262,7 @@
       "vendor_id": "notion",
       "subprocessor_id": "vercel",
       "name_as_listed": "Vercel Inc.",
-      "purpose": "Compute services that enable code execution and AI agent actions.",
+      "purpose": "Compute services that enable code execution and AI agent actions",
       "location": "USA",
       "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
       "date": "2026-11-13"

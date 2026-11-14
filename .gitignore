@@ -1,25 +1,50 @@
-# Allow-list: ignore everything at the top level, then let in only the code.
-# Documentation/, research files, PDFs and CLAUDE.md stay internal (never committed).
+# Allow-list: everything is ignored unless listed below.
+# Only working code, its configuration, test fixtures and generated output are published.
+
 /*
 !/.gitignore
 !/README.md
 !/LICENSE
-!/tools/
-!/.github/
 
-# Never commit these, even inside allowed folders
+# GitHub automation: workflow files only
+!/.github/
+/.github/*
+!/.github/workflows/
+/.github/workflows/*
+!/.github/workflows/*.yml
+
+# Tools: only these file types, inside any tool folder
+!/tools/
+/tools/**
+!/tools/**/
+!/tools/**/*.py
+!/tools/**/*.js
+!/tools/**/*.yaml
+!/tools/**/*.json
+!/tools/**/*.jsonl
+!/tools/**/*.html
+!/tools/**/*.ini
+!/tools/**/*.sh
+!/tools/**/requirements.txt
+!/tools/**/.python-version
+!/tools/**/README.md
+!/tools/**/CHANGELOG.md
+!/tools/**/LICENSE
+
+# Never published, even when the type is allowed (these come last so they win)
 .DS_Store
 __pycache__/
 *.pyc
 .venv/
 venv/
 node_modules/
-.env
-.env.*
-!.env.example
-*.db
-*.sqlite
-*.sqlite3
 .pytest_cache/
 .coverage
 htmlcov/
+.env
+.env.*
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.local.*

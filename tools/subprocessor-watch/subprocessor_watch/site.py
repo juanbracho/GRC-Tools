@@ -189,7 +189,27 @@ def _incident_section(rows: list[dict]) -> list[str]:
     return out
 
 
-def render(data_dir: Path, generated: str, incidents: list[dict] | None = None) -> str:
+def _leads_section(leads: list[dict]) -> list[str]:
+    fresh = [l for l in leads if not l.get("on_watchlist")]
+    out = [f'<h2>incident-leads --to-review<span class="dim">news that names a fourth party next to incident words · '
+           f'{len(fresh)} new</span></h2><div class="out">',
+           '<div class="dim">Found automatically in security-news feeds. A lead is a suggestion, not a flag: a person '
+           'reads it and, if it is a real incident, adds it to the watchlist with a source.</div>']
+    if not leads:
+        out.append('<div class="dim">No leads in the last 30 days.</div>')
+    for l in leads[:40]:
+        tag = '<span class="dim">[on watchlist]</span> ' if l.get("on_watchlist") else ""
+        out.append(f'<div class="date"><span class="mod">? {escape(l["name"])}</span> '
+                   f'<span class="dim">{escape(l.get("published") or l["first_seen"])} · {escape(l["feed"])}</span></div>'
+                   f'<div>{tag}<a href="{safe_url(l["link"])}">{escape(l["title"])}</a></div>'
+                   f'<div class="dim">listed by: {escape(", ".join(l["vendors"]) or "—")} · '
+                   f'matched: {escape(", ".join(l["words"]))}</div>')
+    out.append('</div>')
+    return out
+
+
+def render(data_dir: Path, generated: str, incidents: list[dict] | None = None,
+           leads: list[dict] | None = None) -> str:
     vendors, events = _load(data_dir)
     names = {v["vendor_id"]: v["name"] for v in vendors}
     total = sum(len(v["subprocessors"]) for v in vendors)
@@ -237,6 +257,7 @@ def render(data_dir: Path, generated: str, incidents: list[dict] | None = None) 
                    + f'<td>{escape(v["last_changed"] or "—")}</td><td>{st}</td></tr>')
     out.append('</table></div>')
     out += _incident_section(inc_rows)
+    out += _leads_section(leads or [])
 
     # changes
     out.append(f'<h2>changes --recent<span class="dim">{len(events)} event(s)</span></h2><div class="out">')

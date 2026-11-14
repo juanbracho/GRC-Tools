@@ -17,15 +17,6 @@
     },
     {
       "vendor_id": "hubspot",
-      "subprocessor_id": "ai-service-provider",
-      "name_as_listed": "AI Service Provider",
-      "purpose": "HubSpot AI",
-      "location": "European Economic Area regions; United States",
-      "source": "https://legal.hubspot.com/sub-processors-page",
-      "date": "2026-11-13"
-    },
-    {
-      "vendor_id": "hubspot",
       "subprocessor_id": "amazon-web-services",
       "name_as_listed": "Amazon Web Services, Inc.",
       "purpose": "Hosting & Infrastructure; AI Service Provider",
