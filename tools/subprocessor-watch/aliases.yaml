@@ -1,0 +1,33 @@
+# Map a slug (after legal suffixes and bracketed notes are removed) to the canonical subprocessor_id.
+# Add an entry when the same company shows up under two IDs.
+aws: amazon-web-services
+amazon-web-services-emea: amazon-web-services
+google-cloud: google
+google-cloud-platform: google
+microsoft-azure: microsoft
+openai-opco: openai
+amazon-internet-services-private: amazon-web-services
+google-vertex-ai: google
+cerebras-systems: cerebras
+eleven-labs: elevenlabs
+fireworksai: fireworks-ai
+functional-software: sentry
+functional-software-dba-sentry: sentry
+oracle-america: oracle
+oracle-cloud-infrastructure: oracle
+partner-hero: partnerhero
+salesforcecom: salesforce
+service-cloud: salesforce
+slack-technologies: slack
+snowflake-computing-netherlands: snowflake
+telus-international: telus
+work-os: workos
+nexmo: vonage
+vonage-apis: vonage
+international-business-machines: ibm
+zoom-video-communications: zoom
+exa-labs: exa
+modal-labs: modal
+elasticsearch: elastic
+frontapp: front
+teleperformance-colombia: teleperformance

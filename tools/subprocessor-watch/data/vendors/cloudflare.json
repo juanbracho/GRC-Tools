@@ -1,0 +1,118 @@
+{
+  "vendor_id": "cloudflare",
+  "name": "Cloudflare",
+  "source": "https://www.cloudflare.com/gdpr/subprocessors/cloudflare-services/",
+  "status": "ok",
+  "status_detail": null,
+  "last_changed": "2026-11-13",
+  "subprocessors": [
+    {
+      "vendor_id": "cloudflare",
+      "subprocessor_id": "amazon-web-services",
+      "name_as_listed": "Amazon Web Services (AWS)",
+      "purpose": "Cloudflare Email Security (formerly Area 1)",
+      "location": "United States, European Economic Area",
+      "source": "https://www.cloudflare.com/gdpr/subprocessors/cloudflare-services/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "cloudflare",
+      "subprocessor_id": "anthropic",
+      "name_as_listed": "Anthropic PBC",
+      "purpose": "AI Gateway",
+      "location": "United States",
+      "source": "https://www.cloudflare.com/gdpr/subprocessors/cloudflare-services/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "cloudflare",
+      "subprocessor_id": "coreweave",
+      "name_as_listed": "CoreWeave, Inc.",
+      "purpose": "Workers AI",
+      "location": "United States",
+      "source": "https://www.cloudflare.com/gdpr/subprocessors/cloudflare-services/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "cloudflare",
+      "subprocessor_id": "google",
+      "name_as_listed": "Google LLC",
+      "purpose": "Cloudflare Developer Platform, Cloudflare Zero Trust and AI Gateway",
+      "location": "European Economic Area, United States, Australia, India",
+      "source": "https://www.cloudflare.com/gdpr/subprocessors/cloudflare-services/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "cloudflare",
+      "subprocessor_id": "groq",
+      "name_as_listed": "Groq, Inc.",
+      "purpose": "AI Gateway",
+      "location": "United States",
+      "source": "https://www.cloudflare.com/gdpr/subprocessors/cloudflare-services/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "cloudflare",
+      "subprocessor_id": "nebius",
+      "name_as_listed": "Nebius BV",
+      "purpose": "Workers AI",
+      "location": "England",
+      "source": "https://www.cloudflare.com/gdpr/subprocessors/cloudflare-services/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "cloudflare",
+      "subprocessor_id": "openai",
+      "name_as_listed": "OpenAI, Inc.",
+      "purpose": "AI Gateway",
+      "location": "OpenAI operates servers globally using the cloud infrastructure providers as described here .",
+      "source": "https://www.cloudflare.com/gdpr/subprocessors/cloudflare-services/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "cloudflare",
+      "subprocessor_id": "oracle",
+      "name_as_listed": "Oracle America, Inc.",
+      "purpose": "Cloudflare Developer Platform and Cache Reserve",
+      "location": "United States, European Economic Area, UK, Japan, Australia, Canada, Singapore",
+      "source": "https://www.cloudflare.com/gdpr/subprocessors/cloudflare-services/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "cloudflare",
+      "subprocessor_id": "salesforce",
+      "name_as_listed": "Salesforce, Inc.",
+      "purpose": "Customer support and account management",
+      "location": "United States",
+      "source": "https://www.cloudflare.com/gdpr/subprocessors/cloudflare-services/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "cloudflare",
+      "subprocessor_id": "slack",
+      "name_as_listed": "Slack Technologies, Inc.",
+      "purpose": "Customer support communications",
+      "location": "United States",
+      "source": "https://www.cloudflare.com/gdpr/subprocessors/cloudflare-services/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "cloudflare",
+      "subprocessor_id": "xai",
+      "name_as_listed": "X.AI Corp.",
+      "purpose": "AI Gateway",
+      "location": "United States",
+      "source": "https://www.cloudflare.com/gdpr/subprocessors/cloudflare-services/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "cloudflare",
+      "subprocessor_id": "zendesk",
+      "name_as_listed": "Zendesk, Inc.",
+      "purpose": "Customer support and account management",
+      "location": "Zendesk operates servers globally using Amazon Web Services (AWS) as described here . Current hosting locations are the United States, the European Economic Area, Japan, and Australia",
+      "source": "https://www.cloudflare.com/gdpr/subprocessors/cloudflare-services/",
+      "date": "2026-11-13"
+    }
+  ]
+}

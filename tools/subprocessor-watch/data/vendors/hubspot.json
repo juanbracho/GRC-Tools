@@ -1,0 +1,172 @@
+{
+  "vendor_id": "hubspot",
+  "name": "HubSpot",
+  "source": "https://legal.hubspot.com/sub-processors-page",
+  "status": "ok",
+  "status_detail": null,
+  "last_changed": "2026-11-13",
+  "subprocessors": [
+    {
+      "vendor_id": "hubspot",
+      "subprocessor_id": "ably-realtime",
+      "name_as_listed": "Ably Realtime Ltd.",
+      "purpose": "Conversation & Chat Functionality",
+      "location": "United States; Ireland and Germany; Australia; Canada",
+      "source": "https://legal.hubspot.com/sub-processors-page",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "hubspot",
+      "subprocessor_id": "ai-service-provider",
+      "name_as_listed": "AI Service Provider",
+      "purpose": "HubSpot AI",
+      "location": "European Economic Area regions; United States",
+      "source": "https://legal.hubspot.com/sub-processors-page",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "hubspot",
+      "subprocessor_id": "amazon-web-services",
+      "name_as_listed": "Amazon Web Services, Inc.",
+      "purpose": "Hosting & Infrastructure; AI Service Provider",
+      "location": "United States; Germany; Australia; Canada; United States; European Economic Area regions",
+      "source": "https://legal.hubspot.com/sub-processors-page",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "hubspot",
+      "subprocessor_id": "baseten-labs",
+      "name_as_listed": "Baseten Labs, Inc. ( Effective October 16, 2026 )",
+      "purpose": "AI Service Provider",
+      "location": "United States; European Economic Area regions",
+      "source": "https://legal.hubspot.com/sub-processors-page",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "hubspot",
+      "subprocessor_id": "bright-data",
+      "name_as_listed": "Bright Data Ltd. ( Effective October 16, 2026 )",
+      "purpose": "Web Search Results",
+      "location": "United States",
+      "source": "https://legal.hubspot.com/sub-processors-page",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "hubspot",
+      "subprocessor_id": "cloudflare",
+      "name_as_listed": "Cloudflare, Inc.",
+      "purpose": "Content Delivery Network",
+      "location": "United States; Local **Data Centers located all around the world. Traffic will be automatically routed to the nearest data center.",
+      "source": "https://legal.hubspot.com/sub-processors-page",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "hubspot",
+      "subprocessor_id": "convertapi-uab",
+      "name_as_listed": "ConvertAPI, UAB",
+      "purpose": "File Functionality",
+      "location": "United States; The Netherlands and Germany; Australia; Canada",
+      "source": "https://legal.hubspot.com/sub-processors-page",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "hubspot",
+      "subprocessor_id": "dropbox",
+      "name_as_listed": "Dropbox, Inc.",
+      "purpose": "E-Signature Functionality",
+      "location": "United States; Germany",
+      "source": "https://legal.hubspot.com/sub-processors-page",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "hubspot",
+      "subprocessor_id": "exa",
+      "name_as_listed": "Exa Labs, Inc. ( Effective October 16, 2026 )",
+      "purpose": "Web Search Results",
+      "location": "United States",
+      "source": "https://legal.hubspot.com/sub-processors-page",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "hubspot",
+      "subprocessor_id": "google",
+      "name_as_listed": "Google LLC",
+      "purpose": "Infrastructure - Regional Data Processing; reCAPTCHA",
+      "location": "United States; Germany",
+      "source": "https://legal.hubspot.com/sub-processors-page",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "hubspot",
+      "subprocessor_id": "hyperdoc",
+      "name_as_listed": "Hyperdoc, Inc.",
+      "purpose": "Meeting recordings and transcripts",
+      "location": "United States; Germany",
+      "source": "https://legal.hubspot.com/sub-processors-page",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "hubspot",
+      "subprocessor_id": "litmus-software",
+      "name_as_listed": "Litmus Software, Inc.",
+      "purpose": "Email Functionality",
+      "location": "United States",
+      "source": "https://legal.hubspot.com/sub-processors-page",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "hubspot",
+      "subprocessor_id": "meta-platforms",
+      "name_as_listed": "Meta Platforms, Inc.",
+      "purpose": "Conversation Functionality",
+      "location": "United States",
+      "source": "https://legal.hubspot.com/sub-processors-page",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "hubspot",
+      "subprocessor_id": "mux",
+      "name_as_listed": "Mux, Inc.",
+      "purpose": "Video Functionality",
+      "location": "United States",
+      "source": "https://legal.hubspot.com/sub-processors-page",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "hubspot",
+      "subprocessor_id": "openai",
+      "name_as_listed": "OpenAI, L.L.C.",
+      "purpose": "AI Service Provider",
+      "location": "United States; European Economic Area and Switzerland",
+      "source": "https://legal.hubspot.com/sub-processors-page",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "hubspot",
+      "subprocessor_id": "snowflake",
+      "name_as_listed": "Snowflake Inc.",
+      "purpose": "Infrastructure",
+      "location": "United States; Germany; Australia; Canada",
+      "source": "https://legal.hubspot.com/sub-processors-page",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "hubspot",
+      "subprocessor_id": "stripe",
+      "name_as_listed": "Stripe, Inc.",
+      "purpose": "Payment Processor",
+      "location": "United States",
+      "source": "https://legal.hubspot.com/sub-processors-page",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "hubspot",
+      "subprocessor_id": "twilio",
+      "name_as_listed": "Twilio Inc.",
+      "purpose": "Calling and SMS Functionality",
+      "location": "United States",
+      "source": "https://legal.hubspot.com/sub-processors-page",
+      "date": "2026-11-13"
+    }
+  ]
+}

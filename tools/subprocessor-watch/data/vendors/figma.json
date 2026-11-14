@@ -1,0 +1,406 @@
+{
+  "vendor_id": "figma",
+  "name": "Figma",
+  "source": "https://www.figma.com/sub-processors/",
+  "status": "ok",
+  "status_detail": null,
+  "last_changed": "2026-11-13",
+  "subprocessors": [
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "agora",
+      "name_as_listed": "Agora, Inc.",
+      "purpose": "In product audio conference and speech to text transcription features",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "amazon-web-services",
+      "name_as_listed": "Amazon Web Services, Inc.",
+      "purpose": "Cloud infrastructure provider; Content moderation and safety filtering; AI model provider; Debugging and technical support",
+      "location": "United States (or, for Enterprise plans, the hosting location selected); United States; United States*",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "anthropic",
+      "name_as_listed": "Anthropic PBC",
+      "purpose": "AI model provider",
+      "location": "United States*; United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "automattic",
+      "name_as_listed": "Automattic Inc. (Akismet)",
+      "purpose": "Content moderation and safety filtering",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "bria-artificial-intelligence",
+      "name_as_listed": "Bria Artificial Intelligence Ltd",
+      "purpose": "Selectable AI model provider",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "byteplus-sdn-bhd",
+      "name_as_listed": "BytePlus Sdn. Bhd.",
+      "purpose": "Selectable AI model provider",
+      "location": "EU, Indonesia, Malaysia",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "castle-global",
+      "name_as_listed": "Castle Global, Inc (Hive)",
+      "purpose": "Content moderation and safety filtering",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "cerebras",
+      "name_as_listed": "Cerebras Systems, Inc.",
+      "purpose": "AI model provider",
+      "location": "United States*",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "cloudflare",
+      "name_as_listed": "Cloudflare, Ltd.",
+      "purpose": "Web infrastructure",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "cloudinary",
+      "name_as_listed": "Cloudinary",
+      "purpose": "Cloud Infrastructure Provider",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "create-without-limits-technologies",
+      "name_as_listed": "Create Without Limits Technologies Inc. (dba Enhancor)",
+      "purpose": "Selectable AI model provider",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "datadog",
+      "name_as_listed": "Datadog, Inc.",
+      "purpose": "Infrastructure monitoring and debugging",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "decagon-ai",
+      "name_as_listed": "Decagon AI, Inc.",
+      "purpose": "Self-serve automation for customer support inquiries",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "digital-ocean",
+      "name_as_listed": "Digital Ocean",
+      "purpose": "Ephemeral Processing",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "elevenlabs",
+      "name_as_listed": "Eleven Labs Inc.",
+      "purpose": "Selectable AI model provider",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "features-and-labels",
+      "name_as_listed": "Features & Labels, Inc. (FAL)",
+      "purpose": "Platform hosting; Selectable AI model provider",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "fireworks-ai",
+      "name_as_listed": "Fireworks.ai, Inc.",
+      "purpose": "AI model provider",
+      "location": "United States*",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "freepik",
+      "name_as_listed": "Freepik, Inc.",
+      "purpose": "Selectable AI model provider",
+      "location": "Belgium, Netherlands, Spain",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "gainsight",
+      "name_as_listed": "Gainsight, Inc.",
+      "purpose": "Public support forum hosting (https://forum.figma.com/)",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "google",
+      "name_as_listed": "Google LLC (Vertex)",
+      "purpose": "AI model provider; Customer push notifications on mobile apps",
+      "location": "United States*; United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "hex",
+      "name_as_listed": "Hex, Inc",
+      "purpose": "Data analytics for support issues",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "intercom",
+      "name_as_listed": "Intercom, Inc.",
+      "purpose": "Customer service and technical support",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "intouchcx",
+      "name_as_listed": "IntouchCX, Inc.",
+      "purpose": "Customer service and technical support",
+      "location": "Canada, The Philippines",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "jasper-ai",
+      "name_as_listed": "Jasper AI, Inc.",
+      "purpose": "AI model provider",
+      "location": "United States*",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "kling-ai",
+      "name_as_listed": "Kling AI Pte. Ltd.",
+      "purpose": "Selectable AI model provider",
+      "location": "Singapore",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "lightricks",
+      "name_as_listed": "Lightricks Ltd.",
+      "purpose": "Selectable AI model provider",
+      "location": "EU, Israel, United Kingdom, United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "luma-ai",
+      "name_as_listed": "Luma AI, Inc.",
+      "purpose": "Selectable AI model provider",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "microsoft",
+      "name_as_listed": "Microsoft Corporation (Azure)",
+      "purpose": "AI model provider",
+      "location": "United States*",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "modal",
+      "name_as_listed": "Modal Labs, Inc.",
+      "purpose": "Cloud infrastructure provider for customer sandbox environments",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "openai",
+      "name_as_listed": "OpenAI, LLC",
+      "purpose": "Content moderation and safety filtering; AI model provider; Selectable AI model provider and voice to text transcription",
+      "location": "United States; United States*",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "posthog",
+      "name_as_listed": "PostHog, Inc.",
+      "purpose": "Customer support data analytics",
+      "location": "Germany",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "premier-talent-partners",
+      "name_as_listed": "Premier Talent Partners",
+      "purpose": "Customer service and technical support",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "pylon-labs",
+      "name_as_listed": "Pylon Labs, Inc",
+      "purpose": "Customer service and technical support",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "quiverai",
+      "name_as_listed": "QuiverAI, Inc.",
+      "purpose": "AI model provider",
+      "location": "United States, EU",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "recraft",
+      "name_as_listed": "Recraft, Inc.",
+      "purpose": "AI model provider",
+      "location": "United States*",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "replicate",
+      "name_as_listed": "Replicate LLC",
+      "purpose": "Selectable AI model provider",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "runway-ai",
+      "name_as_listed": "Runway AI, Inc.",
+      "purpose": "Selectable AI model provider",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "sendgrid",
+      "name_as_listed": "SendGrid, Inc.",
+      "purpose": "Customer email notifications",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "sentry",
+      "name_as_listed": "Functional Software, Inc. (Sentry)",
+      "purpose": "Application error tracking and monitoring",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "snowflake",
+      "name_as_listed": "Snowflake, Inc.",
+      "purpose": "Cloud-based data warehouse",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "sprinklr",
+      "name_as_listed": "Sprinklr, Inc.",
+      "purpose": "Customer service and technical support",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "twilio",
+      "name_as_listed": "Twilio, Inc. (Segment)",
+      "purpose": "Data analytics; Identity management",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "world-labs-technologies",
+      "name_as_listed": "World Labs Technologies, Inc.",
+      "purpose": "Selectable AI model provider",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "figma",
+      "subprocessor_id": "zendesk",
+      "name_as_listed": "Zendesk, Inc.",
+      "purpose": "Customer service and technical support",
+      "location": "United States",
+      "source": "https://www.figma.com/sub-processors/",
+      "date": "2026-11-13"
+    }
+  ]
+}

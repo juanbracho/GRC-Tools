@@ -1,0 +1,271 @@
+{
+  "vendor_id": "notion",
+  "name": "Notion",
+  "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+  "status": "ok",
+  "status_detail": null,
+  "last_changed": "2026-11-13",
+  "subprocessors": [
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "amazon-web-services",
+      "name_as_listed": "AWS",
+      "purpose": "Hosting and storage systems provider",
+      "location": "USA, European Union, Korea, Japan; USA",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "anthropic",
+      "name_as_listed": "Anthropic",
+      "purpose": "Service provider for AI agents, hosting large language models and embeddings, and for abuse prevention",
+      "location": "Global",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "anysource-dba-runlayer",
+      "name_as_listed": "Anysource Inc., dba Runlayer",
+      "purpose": "Security for MCP connections",
+      "location": "USA",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "assemblyai",
+      "name_as_listed": "AssemblyAI Inc.",
+      "purpose": "Transcription services",
+      "location": "USA",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "baseten-labs",
+      "name_as_listed": "Baseten Labs, Inc.",
+      "purpose": "Compute infrastructure for serving large language models and powering AI services",
+      "location": "Global",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "browserbase",
+      "name_as_listed": "Browserbase, Inc.",
+      "purpose": "Service provider for browser-based web access and automation for AI agents.",
+      "location": "USA, Spain",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "cerebras",
+      "name_as_listed": "Cerebras Systems Inc.",
+      "purpose": "Service provider for hosting large language models and embeddings.",
+      "location": "USA",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "cinder-technologies",
+      "name_as_listed": "Cinder Technologies Inc.",
+      "purpose": "Service provider for abuse prevention",
+      "location": "USA",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "cloudflare",
+      "name_as_listed": "Cloudflare",
+      "purpose": "Content distribution and processing, security, abuse prevention and DNS services; Content distribution, security, abuse prevention and DNS services",
+      "location": "Global",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "confluent",
+      "name_as_listed": "Confluent",
+      "purpose": "Kafka managed streaming storage platform used for in-product audit log data and analytics",
+      "location": "USA, Germany, Korea, Japan",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "customerio",
+      "name_as_listed": "Customer.io",
+      "purpose": "Transactional, broadcast, and marketing messaging",
+      "location": "USA",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "deepl",
+      "name_as_listed": "DeepL",
+      "purpose": "Translation services",
+      "location": "USA",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "exa",
+      "name_as_listed": "Exa",
+      "purpose": "Service provider for providing web search results.",
+      "location": "USA",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "fivetran",
+      "name_as_listed": "Fivetran",
+      "purpose": "Data pipeline for connecting systems to our data warehouse",
+      "location": "USA, Germany, Korea, Japan",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "google",
+      "name_as_listed": "Google LLC",
+      "purpose": "Service provider for hosting large language models and embeddings and for abuse prevention",
+      "location": "Global",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "mailgun-technologies",
+      "name_as_listed": "Mailgun Technologies, Inc.",
+      "purpose": "Transactional, broadcast, and marketing messaging; Transactional messaging",
+      "location": "USA",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "mathpix",
+      "name_as_listed": "Mathpix, Inc.",
+      "purpose": "PDF file conversion",
+      "location": "USA, Germany, Singapore",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "modal",
+      "name_as_listed": "Modal Labs, Inc.",
+      "purpose": "Compute infrastructure for serving large language models and powering AI services",
+      "location": "Global",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "openai",
+      "name_as_listed": "OpenAI",
+      "purpose": "Service provider for hosting large language models and embeddings and for abuse prevention",
+      "location": "Global",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "parallel-web-systems",
+      "name_as_listed": "Parallel Web Systems",
+      "purpose": "Service provider for providing web search results and for hosting large language models and embeddings",
+      "location": "USA",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "planetscale",
+      "name_as_listed": "PlanetScale, Inc.",
+      "purpose": "Hosting and management of large-scale databases",
+      "location": "USA, Germany, Japan",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "splunk",
+      "name_as_listed": "Splunk",
+      "purpose": "Security and application logging",
+      "location": "USA",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "startree",
+      "name_as_listed": "StarTree, Inc.",
+      "purpose": "Storage platform used for in-product analytics",
+      "location": "USA, Germany, Korea, Japan",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "teleperformance",
+      "name_as_listed": "Teleperformance",
+      "purpose": "Support services and abuse prevention",
+      "location": "Greece",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "turbopuffer",
+      "name_as_listed": "Turbopuffer",
+      "purpose": "Vector database for storing embeddings",
+      "location": "USA, Germany, Korea, Japan",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "twilio",
+      "name_as_listed": "Twilio",
+      "purpose": "Multi-factor Authentication",
+      "location": "USA",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "typesafe-ai",
+      "name_as_listed": "TypeSafe AI, Inc.",
+      "purpose": "Service provider for hosting structured classification and other models",
+      "location": "Global",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "vercel",
+      "name_as_listed": "Vercel Inc.",
+      "purpose": "Compute services that enable code execution and AI agent actions.",
+      "location": "USA",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "notion",
+      "subprocessor_id": "xai",
+      "name_as_listed": "X.AI LLC",
+      "purpose": "Service provider for hosting large language models and embeddings",
+      "location": "USA, UK",
+      "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
+      "date": "2026-11-13"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "vendor_id": "monday",
+  "name": "Monday.com",
+  "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+  "status": "ok",
+  "status_detail": null,
+  "last_changed": "2026-11-13",
+  "subprocessors": [
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "alphaai-technologies-dba-tavily",
+      "name_as_listed": "AlphaAI Technologies Inc. dba Tavily",
+      "purpose": "Web-search engine for AI",
+      "location": "Data is processed temporarily and deleted",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "amazon-web-services",
+      "name_as_listed": "Amazon Web Services EMEA SARL",
+      "purpose": "Cloud computing provider; AI functionalities",
+      "location": "U S; Data is processed temporarily and deleted",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "anthropic",
+      "name_as_listed": "Anthropic PBC",
+      "purpose": "LLM provider",
+      "location": "Data is processed temporarily and deleted",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "cloudflare",
+      "name_as_listed": "Cloudflare, Inc.",
+      "purpose": "CDN, security services; AI functionalities",
+      "location": "Global*; Data is processed temporarily and deleted",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "cloudinary",
+      "name_as_listed": "Cloudinary Ltd.",
+      "purpose": "File preview service",
+      "location": "U S",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "coralogix",
+      "name_as_listed": "Coralogix, Inc.",
+      "purpose": "Log aggregation and correlation service",
+      "location": "E U",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "datadog",
+      "name_as_listed": "Datadog, Inc.",
+      "purpose": "application monitoring for servers, databases, tools, and services",
+      "location": "E U",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "elevenlabs",
+      "name_as_listed": "ElevenLabs, Inc.",
+      "purpose": "Voice LLM Provider",
+      "location": "Data is processed temporarily and deleted",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "eonio",
+      "name_as_listed": "EON.io Ltd.",
+      "purpose": "Database backup service",
+      "location": "Data is processed temporarily and deleted",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "exa",
+      "name_as_listed": "Exa Labs, Inc.",
+      "purpose": "Web-search engine for AI",
+      "location": "Data is processed temporarily and deleted",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "fortinet",
+      "name_as_listed": "Fortinet, Inc.",
+      "purpose": "Advanced threat protection for uploaded files",
+      "location": "U S",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "google",
+      "name_as_listed": "Google Cloud EMEA Limited",
+      "purpose": "Cloud computing provider; AI functionalities",
+      "location": "US; Data is processed temporarily and deleted",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "hyperdoc",
+      "name_as_listed": "Hyperdoc Inc. (Recall.ai)",
+      "purpose": "Call recording and analysis service",
+      "location": "US",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "lakera-ai",
+      "name_as_listed": "Lakera AI AG",
+      "purpose": "Runtime security for AI",
+      "location": "US",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "langchain",
+      "name_as_listed": "LangChain Inc.",
+      "purpose": "AI oversight and agent management service",
+      "location": "EU",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "mailgun-technologies",
+      "name_as_listed": "Mailgun Technologies, Inc.",
+      "purpose": "Email notification service",
+      "location": "U S",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "microsoft",
+      "name_as_listed": "Microsoft Corp.",
+      "purpose": "Azure c loud computing provider; AI functionalities",
+      "location": "Data is processed temporarily and deleted",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "nebius",
+      "name_as_listed": "Nebius Inc.",
+      "purpose": "Data embedding service; AI functionalities",
+      "location": "Data is processed temporarily and deleted",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "openai",
+      "name_as_listed": "OpenAI, L.L.C.",
+      "purpose": "AI functionalities",
+      "location": "Data is processed temporarily and deleted",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "posthog",
+      "name_as_listed": "PostHog, Inc.",
+      "purpose": "Product analytics service",
+      "location": "EU",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "redis-labs",
+      "name_as_listed": "Redis Labs, Ltd.",
+      "purpose": "Managed d atabase platform",
+      "location": "U S",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "sentry",
+      "name_as_listed": "Functional Software, Inc. dba Sentry",
+      "purpose": "Error and performance monitoring for applications",
+      "location": "U S",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "snowflake",
+      "name_as_listed": "Snowflake Computing Netherlands B.V.",
+      "purpose": "Data warehouse service for AI functionalities",
+      "location": "EU",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "superpowered-labs-dba-vapi",
+      "name_as_listed": "Superpowered Labs Inc dba Vapi",
+      "purpose": "AI voice agent builder",
+      "location": "Data is processed temporarily and deleted",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "twilio",
+      "name_as_listed": "Twilio Inc. (SendGrid)",
+      "purpose": "Email notification service",
+      "location": "U S",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "typesafe-ai",
+      "name_as_listed": "TypeSafe AI, Inc.",
+      "purpose": "AI functionalities",
+      "location": "Data is processed temporarily and deleted",
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "monday",
+      "subprocessor_id": "workcanvas-workassests",
+      "name_as_listed": "WorkCanvas, WorkAssests,",
+      "purpose": "Full account data",
+      "location": null,
+      "source": "https://monday.com/l/privacy/sub-processors-subsidiaries-support/",
+      "date": "2026-11-13"
+    }
+  ]
+}

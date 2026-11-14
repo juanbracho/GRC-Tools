@@ -1,0 +1,84 @@
+# Incident watchlist: known security incidents at companies that may be fourth parties.
+# Hand-curated. Every entry needs a public source. Facts only, in our own words.
+#
+#   subprocessor_id    must match the IDs in data/vendors/*.json (after aliases)
+#   date               when the incident started or was first disclosed (UTC, YYYY-MM-DD)
+#   confirmed_impact   vendors that PUBLICLY said the incident affected them, with the source.
+#                      Used to spot disclosure gaps: a vendor confirms impact, but the company
+#                      is not on its public subprocessor list.
+#
+# The page flags every watched vendor that lists an affected company. A flag is a lead to
+# review (ask the vendor), not proof that your data was exposed.
+
+incidents:
+  - subprocessor_id: fireworks-ai
+    name: Fireworks AI
+    date: 2026-10-06
+    summary: Unauthorized use of internal credentials; a second incident on 2026-10-24. A 2026-11-09 update says account and billing data, and for some customers secrets, datasets and partial model weights, were accessed.
+    sources:
+      - https://fireworks.ai/security/bulletins/october-2026-security-incident
+      - https://fireworks.ai/security/bulletins/october-2026-security-incident-update
+      - https://www.wiz.io/blog/black-october-for-ai-developer-platforms
+    confirmed_impact:
+      - vendor_id: notion
+        date: 2026-11-06
+        note: Notion says fewer than 1% of workspaces may be affected (some Notion AI chat data).
+        source: https://notion.com/help/security-incident-involving-a-third-party-ai-vendor
+
+  - subprocessor_id: railway
+    name: Railway
+    date: 2026-10-20
+    summary: Anomalous access to systems storing customer environment variables; customers told to rotate secrets.
+    sources:
+      - https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html
+      - https://www.wiz.io/blog/black-october-for-ai-developer-platforms
+
+  - subprocessor_id: northflank
+    name: Northflank
+    date: 2026-10-30
+    summary: Customers told to assume stored environment variables were decrypted; stolen AI API keys were abused.
+    sources:
+      - https://bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys
+      - https://www.wiz.io/blog/black-october-for-ai-developer-platforms
+
+  - subprocessor_id: opencode
+    name: OpenCode
+    date: 2026-10-16
+    summary: Customer API keys and other secrets taken.
+    sources:
+      - https://www.wiz.io/blog/black-october-for-ai-developer-platforms
+
+  - subprocessor_id: warp
+    name: Warp
+    date: 2026-10-23
+    summary: AI agent logs and user telemetry exposed; a third-party vendor dependency is suspected.
+    sources:
+      - https://www.wiz.io/blog/black-october-for-ai-developer-platforms
+
+  - subprocessor_id: lightning-ai
+    name: Lightning AI
+    date: 2026-10-15
+    summary: Credential access, listed in the Wiz Black October report.
+    sources:
+      - https://www.wiz.io/blog/black-october-for-ai-developer-platforms
+
+  - subprocessor_id: andromeda
+    name: Andromeda
+    date: 2026-10-09
+    summary: AI developer platform incident listed in the Wiz Black October report.
+    sources:
+      - https://www.wiz.io/blog/black-october-for-ai-developer-platforms
+
+  - subprocessor_id: commandcode
+    name: CommandCode
+    date: 2026-10-28
+    summary: AI developer platform incident listed in the Wiz Black October report.
+    sources:
+      - https://www.wiz.io/blog/black-october-for-ai-developer-platforms
+
+  - subprocessor_id: zeabur
+    name: Zeabur
+    date: 2026-08-28
+    summary: Unauthorized access to project environment variable data (investigation closed 2026-09-04). Sometimes grouped with Black October, but it started earlier.
+    sources:
+      - https://zeabur.com/blogs/august-2026-security-incident

@@ -1,0 +1,217 @@
+{
+  "vendor_id": "airtable",
+  "name": "Airtable",
+  "source": "https://www.airtable.com/company/subprocessors",
+  "status": "ok",
+  "status_detail": null,
+  "last_changed": "2026-11-13",
+  "subprocessors": [
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "amazon-web-services",
+      "name_as_listed": "Amazon Web Services, Inc",
+      "purpose": "Cloud infrastructure, transactional email; AI model provider",
+      "location": "USA, Germany*, Ireland*, Australia*; Global",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "anthropic",
+      "name_as_listed": "Anthropic, PBC",
+      "purpose": "AI model provider",
+      "location": "USA",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "bright-data",
+      "name_as_listed": "Bright Data Ltd.**",
+      "purpose": "Internet search and browse functionality",
+      "location": "USA, Germany, Singapore",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "castle-global",
+      "name_as_listed": "Castle Global Inc.**",
+      "purpose": "AI content moderation Note: this applies only to Enterprise and Business plan customers",
+      "location": "Global",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "forethought-technologies",
+      "name_as_listed": "Forethought Technologies, Inc.",
+      "purpose": "Customer support services",
+      "location": "USA",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "gongio",
+      "name_as_listed": "Gong.io, Inc.",
+      "purpose": "Video conferencing, call recording",
+      "location": "USA, Germany",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "google",
+      "name_as_listed": "Google LLC",
+      "purpose": "AI model provider and request routing from Airtable’s AI features to AI model providers (via Google Cloud Platform)",
+      "location": "Global",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "ibm",
+      "name_as_listed": "International Business Machines Corporation (IBM)",
+      "purpose": "AI model provider",
+      "location": "USA",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "mailgun-technologies",
+      "name_as_listed": "Mailgun Technologies, Inc",
+      "purpose": "Transactional email",
+      "location": "USA, Germany*, Belgium*",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "mapbox",
+      "name_as_listed": "Mapbox, Inc.**",
+      "purpose": "Map and location data generation",
+      "location": "USA",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "openai",
+      "name_as_listed": "OpenAI, LLC",
+      "purpose": "AI model provider",
+      "location": "Global",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "parallel-web-systems",
+      "name_as_listed": "Parallel Web Systems Inc.**",
+      "purpose": "AI-powered internet search and browsing",
+      "location": "USA",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "partnerhero",
+      "name_as_listed": "PartnerHero, Inc.",
+      "purpose": "Customer support services",
+      "location": "USA, Germany, Honduras, Romania, Philippines",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "pylon-labs",
+      "name_as_listed": "Pylon Labs, Inc.",
+      "purpose": "Customer support services",
+      "location": "USA",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "reducto",
+      "name_as_listed": "Reducto, Inc.**",
+      "purpose": "AI-powered data extraction",
+      "location": "USA",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "salesforce",
+      "name_as_listed": "Salesforce.com, Inc.",
+      "purpose": "Customer support services",
+      "location": "USA",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "sendsafely",
+      "name_as_listed": "SendSafely Inc.",
+      "purpose": "Data security services",
+      "location": "USA",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "sierra-technologies",
+      "name_as_listed": "Sierra Technologies, Inc.",
+      "purpose": "Customer support services",
+      "location": "USA",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "twilio",
+      "name_as_listed": "Twilio, Inc",
+      "purpose": "Two-factor authentication",
+      "location": "USA",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "vercel",
+      "name_as_listed": "Vercel Inc.**",
+      "purpose": "Isolated code execution environment for Airtable’s AI features and routing of requests to AI model providers",
+      "location": "USA",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "workato",
+      "name_as_listed": "Workato Inc.",
+      "purpose": "Premium Support services",
+      "location": "USA",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "zight",
+      "name_as_listed": "Zight, Inc. (formerly CloudPlus, Inc.)",
+      "purpose": "Customer support, professional services",
+      "location": "USA",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "airtable",
+      "subprocessor_id": "zoom",
+      "name_as_listed": "Zoom Video Communications, Inc.",
+      "purpose": "Video conferencing, call recording",
+      "location": "USA",
+      "source": "https://www.airtable.com/company/subprocessors",
+      "date": "2026-11-13"
+    }
+  ]
+}

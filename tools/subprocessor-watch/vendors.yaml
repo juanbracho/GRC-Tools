@@ -1,0 +1,139 @@
+# Vendors watched. Each table entry says: which table (by the heading above it)
+# and which column (0-based) holds the name / purpose / location.
+# min_cells: rows with fewer cells are skipped (category labels, continuation rows).
+# Affiliates/subsidiaries tables are skipped on purpose: same company group, not a fourth party.
+# reviewed_skip: table positions (0-based, whole page) a human checked and chose not to read;
+# the spot-check stays quiet about them. If the page changes, the warning comes back.
+
+vendors:
+  - vendor_id: github
+    name: GitHub
+    subprocessor_url: https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors
+    reviewed_skip: [1]   # spot-check reviewed: GitHub's own subsidiaries
+    tables:
+      - heading: Third Party Subprocessors
+        columns: {name: 0, purpose: 1, location: 2}
+
+  - vendor_id: atlassian
+    name: Atlassian
+    subprocessor_url: https://www.atlassian.com/legal/sub-processors
+    reviewed_skip: [1, 2]   # spot-check reviewed: Government Cloud list (separate product; judgment call) and Atlassian group entities
+    tables:
+      - heading: Third-Party Sub-processors
+        columns: {name: 0, purpose: 2, location: 4}
+        min_cells: 6
+
+  - vendor_id: asana
+    name: Asana
+    subprocessor_url: https://asana.com/terms/subprocessors
+    reviewed_skip: [4, 5]   # spot-check reviewed: Asana affiliates and the page's own change log
+    tables:
+      - heading: Infrastructure Subprocessors
+        columns: {name: 0, purpose: 1, location: 2}
+      - heading: Analytics & Data Warehouse Subprocessors
+        columns: {name: 0, purpose: 1, location: 2}
+      - heading: Customer Support Subprocessors
+        columns: {name: 0, purpose: 1, location: 2}
+      - heading: Feature-Specific Subprocessors
+        columns: {name: 0, purpose: 1, location: 2}
+
+  - vendor_id: openai
+    name: OpenAI
+    subprocessor_url: https://openai.com/en-US/policies/sub-processor-list/
+    reviewed_skip: [1]   # spot-check reviewed: OpenAI's own entities
+    tables:
+      - heading: Third Party Sub-processors
+        columns: {name: 0, purpose: 3, location: 2}
+
+  - vendor_id: hubspot
+    name: HubSpot
+    subprocessor_url: https://legal.hubspot.com/sub-processors-page
+    reviewed_skip: [2]   # spot-check reviewed: HubSpot's own entities
+    tables:   # one heading covers 3 tables; the 3rd is HubSpot's own entities
+      - {heading: HubSpot Sub-Processors Page, nth: 0, columns: {name: 0, purpose: 1, location: [3, 4, 5, 6]}}
+      - {heading: HubSpot Sub-Processors Page, nth: 1, columns: {name: 0, purpose: 1, location: [3, 4, 5, 6]}, min_cells: 6}
+
+  - vendor_id: figma
+    name: Figma
+    subprocessor_url: https://www.figma.com/sub-processors/
+    reviewed_skip: [4]   # spot-check reviewed: Figma's own entities
+    tables:
+      - {heading: "Hosting, Infrastructure, and Content Delivery", columns: {name: 0, purpose: 2, location: 3}}
+      - {heading: AI Service Providers, columns: {name: 0, purpose: 2, location: 3}}
+      - {heading: Figma Weave AI Sub-Processors, columns: {name: 0, purpose: 2, location: 3}}
+      - {heading: Customer Communication, columns: {name: 0, purpose: 2, location: 3}}
+
+  - vendor_id: zoom
+    name: Zoom
+    subprocessor_url: https://www.zoom.com/en/trust/subprocessors/
+    reviewed_skip: [2, 3]   # spot-check reviewed: Zoom affiliates and the page's own change log
+    tables:   # header rows are plain cells; tables 3-4 are affiliates and the change log
+      - {heading: Zoom Third-Party Subprocessors, nth: 0, columns: {name: 0, purpose: 1, location: 3}, min_cells: 6}
+      - {heading: Zoom Third-Party Subprocessors, nth: 1, columns: {name: 0, purpose: 1, location: 3}, min_cells: 6}
+
+  - vendor_id: airtable
+    name: Airtable
+    subprocessor_url: https://www.airtable.com/company/subprocessors
+    reviewed_skip: [3]   # spot-check reviewed: Airtable affiliates
+    tables:
+      - {heading: Core Infrastructure Subprocessors, columns: {name: 0, purpose: 1, location: 2}}
+      - {heading: In-Product Artificial Intelligence, columns: {name: 0, purpose: 1, location: 2}}
+      - {heading: Other Third-Party Subprocessors, columns: {name: 0, purpose: 1, location: 2}}
+
+  - vendor_id: stripe
+    name: Stripe
+    subprocessor_url: https://stripe.com/legal/service-providers
+    reviewed_skip: [1, 2]   # spot-check reviewed: 'Service Providers' list (Stripe separates them from sub-processors; judgment call) and Stripe entities
+    tables:
+      - {heading: List of Sub-processors, columns: {name: 0, purpose: 2, location: 3}, min_cells: 4}
+
+  - vendor_id: cloudflare
+    name: Cloudflare
+    subprocessor_url: https://www.cloudflare.com/gdpr/subprocessors/cloudflare-services/
+    reviewed_skip: [1]   # spot-check reviewed: Cloudflare's own entities
+    tables:   # no headings above the tables; the 2nd table is Cloudflare's own entities
+      - {nth: 0, columns: {name: 0, purpose: 1, location: 2}}
+
+  - vendor_id: monday
+    name: Monday.com
+    subprocessor_url: https://monday.com/l/privacy/sub-processors-subsidiaries-support/
+    reviewed_skip: [2]   # spot-check reviewed: monday.com's own entities
+    tables:   # 3rd table is monday.com's own entities
+      - {heading: "Sub-Processors, Subsidiaries", nth: 0, columns: {name: 0, purpose: 2, location: 4}, min_cells: 6}
+      - {heading: "Sub-Processors, Subsidiaries", nth: 1, columns: {name: 0, purpose: 2, location: 4}, min_cells: 6}
+
+  # --- Pages drawn by JavaScript: rendered in headless Chromium (render: ...) ---
+  - vendor_id: anthropic
+    name: Anthropic (Claude)
+    subprocessor_url: https://trust.anthropic.com/subprocessors
+    render: vanta
+    tables:
+      - {heading: Subprocessors, columns: {name: 0, purpose: 1, location: 2}}
+
+  - vendor_id: fathom
+    name: Fathom
+    subprocessor_url: https://trust.fathom.video/subprocessors
+    render: vanta
+    tables:
+      - {heading: Subprocessors, columns: {name: 0, purpose: 1, location: 2}}
+
+  - vendor_id: granola
+    name: Granola
+    subprocessor_url: https://trust.granola.ai/subprocessors
+    render: vanta
+    tables:
+      - {heading: Subprocessors, columns: {name: 0, purpose: 1, location: 2}}
+
+  - vendor_id: notion
+    name: Notion
+    subprocessor_url: https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734
+    reviewed_skip: [4]   # spot-check reviewed: Notion's own entities
+    render: browser
+    tables:   # sections are behind toggles (opened by the renderer); no real headings, so by position:
+      # 0 Infrastructure, 1 Platform, 2 Customer & Support, 3 Business Operations,
+      # 4 Notion's own entities (skipped), 5 Notion Calendar
+      - {nth: 0, columns: {name: 0, purpose: 1, location: 2}, min_cells: 3}
+      - {nth: 1, columns: {name: 0, purpose: 1, location: 2}, min_cells: 3}
+      - {nth: 2, columns: {name: 0, purpose: 1, location: 2}, min_cells: 3}
+      - {nth: 3, columns: {name: 0, purpose: 1, location: 2}, min_cells: 3}
+      - {nth: 5, columns: {name: 0, purpose: 1, location: 2}, min_cells: 3}

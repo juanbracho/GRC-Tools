@@ -1,0 +1,280 @@
+{
+  "vendor_id": "fathom",
+  "name": "Fathom",
+  "source": "https://trust.fathom.video/subprocessors",
+  "status": "ok",
+  "status_detail": null,
+  "last_changed": "2026-11-13",
+  "subprocessors": [
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "amplitude",
+      "name_as_listed": "Amplitude",
+      "purpose": "Data analytics",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "anthropic",
+      "name_as_listed": "Anthropic",
+      "purpose": "AI Provider",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "brandfetch",
+      "name_as_listed": "Brandfetch",
+      "purpose": "Brand & Logo API",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "census",
+      "name_as_listed": "Census",
+      "purpose": "Data Analytics & ETL",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "chartmogul",
+      "name_as_listed": "ChartMogul",
+      "purpose": "Data analytics",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "cloudflare",
+      "name_as_listed": "Cloudflare",
+      "purpose": "CDN",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "courier",
+      "name_as_listed": "Courier",
+      "purpose": "Email Provider",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "databricks",
+      "name_as_listed": "Databricks",
+      "purpose": "Data storage and processing",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "elastic",
+      "name_as_listed": "Elastic",
+      "purpose": "Search Provider",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "elevenlabs",
+      "name_as_listed": "ElevenLabs",
+      "purpose": "AI Provider",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "enterpret",
+      "name_as_listed": "Enterpret",
+      "purpose": "Data analytics",
+      "location": null,
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "fivetran",
+      "name_as_listed": "FiveTran",
+      "purpose": "Data Analytics & ETL",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "front",
+      "name_as_listed": "Front",
+      "purpose": "Helpdesk Provider",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "google",
+      "name_as_listed": "Google Cloud Platform",
+      "purpose": "Primary Cloud Provider",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "hex",
+      "name_as_listed": "Hex",
+      "purpose": "Data analytics",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "hubspot",
+      "name_as_listed": "HubSpot",
+      "purpose": "CRM",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "modal",
+      "name_as_listed": "Modal",
+      "purpose": "AI Provider",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "new-relic",
+      "name_as_listed": "New Relic",
+      "purpose": "Application Monitoring",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "omni",
+      "name_as_listed": "omni",
+      "purpose": "Data analytics",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "openai",
+      "name_as_listed": "OpenAI",
+      "purpose": "AI Provider",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "postmark",
+      "name_as_listed": "Postmark",
+      "purpose": "Email Provider",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "pusher",
+      "name_as_listed": "Pusher",
+      "purpose": "In-App Communication",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "retool",
+      "name_as_listed": "Retool",
+      "purpose": "Data Analytics & ETL",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "reveal",
+      "name_as_listed": "Reveal",
+      "purpose": "Partnership Marketing Platform",
+      "location": "Belgium",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "revenuehero",
+      "name_as_listed": "RevenueHero",
+      "purpose": "Sales",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "sentry",
+      "name_as_listed": "Sentry",
+      "purpose": "Application Monitoring",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "sphere",
+      "name_as_listed": "Sphere",
+      "purpose": "Finance and payments",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "stripe",
+      "name_as_listed": "Stripe",
+      "purpose": "Payment Processor",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "uservoice",
+      "name_as_listed": "UserVoice",
+      "purpose": "Feedback Tracking Platform",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "fathom",
+      "subprocessor_id": "warmly",
+      "name_as_listed": "Warmly",
+      "purpose": "Sales",
+      "location": "USA",
+      "source": "https://trust.fathom.video/subprocessors",
+      "date": "2026-11-13"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "vendor_id": "atlassian",
+  "name": "Atlassian",
+  "source": "https://www.atlassian.com/legal/sub-processors",
+  "status": "ok",
+  "status_detail": null,
+  "last_changed": "2026-11-13",
+  "subprocessors": [
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "amazon-web-services",
+      "name_as_listed": "Amazon Web Services, Inc.",
+      "purpose": "Cloud hosting providerProvision of Atlassian support; Generative AI services provider for intelligence product features",
+      "location": "EEA (Sweden, Ireland and Germany), Switzerland, UK, Canada, Australia, Singapore, South Korea, USA, India, Japan, SingaporeIf you’ve enabled Atlassian’s Data Residency feature, certain (in-scope) data is hosted in your chosen region. For details on supported regions and how Data Residency works, see Data Residency: Manage Where Your Data is Hosted and Understand data residency .; USA, EEA (Germany, Sweden, Italy, Spain, Ireland, France) South Africa, Japan, South Korea, India, Singapore, Australia, Indonesia, Canada, Switzerland, UK, Bahrain, Mexico, Brazil",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "cantab-research",
+      "name_as_listed": "Cantab Research Ltd (trading as Speechmatics)",
+      "purpose": "Transcription services",
+      "location": "USA",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "cloudflare",
+      "name_as_listed": "Cloudflare, Ltd.",
+      "purpose": "Content delivery network providerHosting provider for the Remote Model Context Protocol (MCP) Server",
+      "location": "Customer traffic is processed globally at the data center closest to the end user.",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "clumio",
+      "name_as_listed": "Clumio, Inc.",
+      "purpose": "Backup solutions provider for Amazon Simple Storage Service (S3)",
+      "location": "EEA, UK, Australia, USA, and Singapore",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "databricks",
+      "name_as_listed": "Databricks, Inc.",
+      "purpose": "Infrastructure provider to enable customer data querying, and analytics product features.; Infrastructure provider for machine learning development, processing and training",
+      "location": "USA",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "e-core-solucoes-em-tecnologia-da-informaciupao",
+      "name_as_listed": "e-Core Soluções em Tecnologia da Informaçiupão Ltda.",
+      "purpose": "Customer service, support, and cloud migration service provider",
+      "location": "Brazil, Mexico",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "google",
+      "name_as_listed": "Google LLC",
+      "purpose": "File Storage; Generative AI services provider for intelligence product features",
+      "location": "USA; USA, EEA (Belgium, Netherlands, Finland), Singapore, Taiwan",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "mailchimp",
+      "name_as_listed": "Mailchimp",
+      "purpose": "Communications technology provider for product notifications and video sharing over email",
+      "location": "USA",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "mailgun-technologies",
+      "name_as_listed": "Mailgun Technologies, Inc.",
+      "purpose": "Communications technology provider for product notifications",
+      "location": "USA, EEA",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "messagebird-usa",
+      "name_as_listed": "MessageBird USA, Inc, (d/b/a Bird)",
+      "purpose": "Communications technology provider for product notifications",
+      "location": "USA, EEA",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "microsoft",
+      "name_as_listed": "Microsoft Corporation",
+      "purpose": "Cloud hosting provider",
+      "location": "USA, Australia, Netherlands",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "mongodb",
+      "name_as_listed": "MongoDB, Inc.",
+      "purpose": "Cloud hosting provider for JSM Chat (formerly Halp)",
+      "location": "USA",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "netapp",
+      "name_as_listed": "NetApp, Inc.",
+      "purpose": "Cloud hosting provider",
+      "location": "USA",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "onesignal",
+      "name_as_listed": "OneSignal",
+      "purpose": "Communications technology provider for mobile product notifications and video sharing",
+      "location": "USA",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "openai",
+      "name_as_listed": "OpenAI, L.L.C.",
+      "purpose": "Generative AI services provider for intelligence product featuresFor the provision of Atlassian support",
+      "location": "USA",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "partnerhero",
+      "name_as_listed": "Partner Hero",
+      "purpose": "Customer service and technical support",
+      "location": "Philippines, Romania, South Africa",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "plivo",
+      "name_as_listed": "Plivo, Inc.",
+      "purpose": "Communications technology provider for product notifications",
+      "location": "USA",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "salesforce",
+      "name_as_listed": "Salesforce, Inc. (Heroku)",
+      "purpose": "Cloud services provider",
+      "location": "USA",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "snowflake",
+      "name_as_listed": "Snowflake, Inc.",
+      "purpose": "Cloud database provider",
+      "location": "USA",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "softserve",
+      "name_as_listed": "SoftServe, Inc.",
+      "purpose": "Customer service, outsourced engineering and technical support",
+      "location": "Bulgaria, Poland, United States",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "telus",
+      "name_as_listed": "Telus, Inc.",
+      "purpose": "Customer service",
+      "location": "Romania",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "twilio",
+      "name_as_listed": "Twilio Inc.",
+      "purpose": "Communications technology provider for product notifications; Data analytics service",
+      "location": "USA",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "vonage",
+      "name_as_listed": "Vonage APIs (formerly Nexmo, Inc.)",
+      "purpose": "Communications technology provider",
+      "location": "USA, UK, Singapore",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "workos",
+      "name_as_listed": "Work OS, Inc.",
+      "purpose": "SCIM provisioning",
+      "location": "USA",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "atlassian",
+      "subprocessor_id": "zendesk",
+      "name_as_listed": "Zendesk",
+      "purpose": "Customer service and technical support",
+      "location": "USA",
+      "source": "https://www.atlassian.com/legal/sub-processors",
+      "date": "2026-11-13"
+    }
+  ]
+}

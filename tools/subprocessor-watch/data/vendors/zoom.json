@@ -1,0 +1,208 @@
+{
+  "vendor_id": "zoom",
+  "name": "Zoom",
+  "source": "https://www.zoom.com/en/trust/subprocessors/",
+  "status": "ok",
+  "status_detail": null,
+  "last_changed": "2026-11-13",
+  "subprocessors": [
+    {
+      "vendor_id": "zoom",
+      "subprocessor_id": "amazon-web-services",
+      "name_as_listed": "Amazon Web Services",
+      "purpose": "Cloud Service Provider",
+      "location": "Australia, Brazil, Canada, Europe, India, Japan, Singapore, Taiwan, United States",
+      "source": "https://www.zoom.com/en/trust/subprocessors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "zoom",
+      "subprocessor_id": "anthropic",
+      "name_as_listed": "Anthropic",
+      "purpose": "Intelligent Features Service Provider",
+      "location": "United States",
+      "source": "https://www.zoom.com/en/trust/subprocessors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "zoom",
+      "subprocessor_id": "authzed",
+      "name_as_listed": "Authzed, Inc.",
+      "purpose": "Authorization / Permissions service (Developer tools)",
+      "location": "United States",
+      "source": "https://www.zoom.com/en/trust/subprocessors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "zoom",
+      "subprocessor_id": "cloudflare",
+      "name_as_listed": "Cloudflare",
+      "purpose": "Content Delivery Network; Security",
+      "location": "North America, Latin America, Europe, Middle East, Africa, Asia and Oceania.; European Union, United States",
+      "source": "https://www.zoom.com/en/trust/subprocessors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "zoom",
+      "subprocessor_id": "elevenlabs",
+      "name_as_listed": "Eleven Labs Inc.",
+      "purpose": "Intelligent Features Service Provider (Text to Speech,Voice Cloning, Dubbing)",
+      "location": "United States, European Union",
+      "source": "https://www.zoom.com/en/trust/subprocessors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "zoom",
+      "subprocessor_id": "google",
+      "name_as_listed": "Google Cloud Platform",
+      "purpose": "Cloud Service Provider, Intelligent Features Service Provider",
+      "location": "United States, European Union, Uruguay, Chile, Taiwan, Japan and Singapore",
+      "source": "https://www.zoom.com/en/trust/subprocessors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "zoom",
+      "subprocessor_id": "maestroqa-d-b-a-rippit",
+      "name_as_listed": "MaestroQA d/b/a Rippit",
+      "purpose": "Support Quality Assurance",
+      "location": "Ireland, United States",
+      "source": "https://www.zoom.com/en/trust/subprocessors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "zoom",
+      "subprocessor_id": "microsoft",
+      "name_as_listed": "Microsoft",
+      "purpose": "Cloud Service Provider.; Microsoft’s Azure Speech (Speech-to-Text, Text-to-Speech, Speech Translation, Voice Cloning), Intelligent Features Service Provider.",
+      "location": "Switzerland; Australia, Brazil, Canada, Europe, India, Japan, Singapore, Taiwan, United States",
+      "source": "https://www.zoom.com/en/trust/subprocessors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "zoom",
+      "subprocessor_id": "mongodb",
+      "name_as_listed": "MongoDB",
+      "purpose": "Developer Database Platform",
+      "location": "United States",
+      "source": "https://www.zoom.com/en/trust/subprocessors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "zoom",
+      "subprocessor_id": "onetrust",
+      "name_as_listed": "OneTrust",
+      "purpose": "Data Subject Requests Portal, Cookie Preference Center",
+      "location": "United States",
+      "source": "https://www.zoom.com/en/trust/subprocessors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "zoom",
+      "subprocessor_id": "openai",
+      "name_as_listed": "OpenAI",
+      "purpose": "Intelligent Features Service Provider",
+      "location": "United States, European Union",
+      "source": "https://www.zoom.com/en/trust/subprocessors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "zoom",
+      "subprocessor_id": "oracle",
+      "name_as_listed": "Oracle",
+      "purpose": "Cloud Service Provider",
+      "location": "Mexico, United States, Saudi Arabia",
+      "source": "https://www.zoom.com/en/trust/subprocessors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "zoom",
+      "subprocessor_id": "perplexity",
+      "name_as_listed": "Perplexity",
+      "purpose": "Intelligent Features Service Provider",
+      "location": "United States",
+      "source": "https://www.zoom.com/en/trust/subprocessors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "zoom",
+      "subprocessor_id": "qualtrics",
+      "name_as_listed": "Qualtrics",
+      "purpose": "Feedback, Reviews, and Survey Responses",
+      "location": "Germany, United States",
+      "source": "https://www.zoom.com/en/trust/subprocessors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "zoom",
+      "subprocessor_id": "sendbird",
+      "name_as_listed": "Sendbird",
+      "purpose": "Chat Functionality for Workvivo Customers (Optional)",
+      "location": "European Union, United States",
+      "source": "https://www.zoom.com/en/trust/subprocessors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "zoom",
+      "subprocessor_id": "sendsafely",
+      "name_as_listed": "SendSafely",
+      "purpose": "Encrypted file transfer service",
+      "location": "United States",
+      "source": "https://www.zoom.com/en/trust/subprocessors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "zoom",
+      "subprocessor_id": "servicenow",
+      "name_as_listed": "ServiceNow",
+      "purpose": "Cloud-based Customer Service Platform",
+      "location": "Germany, United States",
+      "source": "https://www.zoom.com/en/trust/subprocessors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "zoom",
+      "subprocessor_id": "stripe",
+      "name_as_listed": "Stripe",
+      "purpose": "Payment Processing",
+      "location": "United States",
+      "source": "https://www.zoom.com/en/trust/subprocessors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "zoom",
+      "subprocessor_id": "suki-ai",
+      "name_as_listed": "Suki AI",
+      "purpose": "Intelligent Features Service Provider",
+      "location": "United States",
+      "source": "https://www.zoom.com/en/trust/subprocessors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "zoom",
+      "subprocessor_id": "sumit-ai",
+      "name_as_listed": "Sumit-AI",
+      "purpose": "AI Speech, Speech-to-Text service",
+      "location": "Europe, United States",
+      "source": "https://www.zoom.com/en/trust/subprocessors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "zoom",
+      "subprocessor_id": "taskus",
+      "name_as_listed": "TaskUS",
+      "purpose": "Support Providers",
+      "location": "Philippines, Croatia",
+      "source": "https://www.zoom.com/en/trust/subprocessors/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "zoom",
+      "subprocessor_id": "twilio",
+      "name_as_listed": "Twilio",
+      "purpose": "Notifications",
+      "location": "United States, European Union",
+      "source": "https://www.zoom.com/en/trust/subprocessors/",
+      "date": "2026-11-13"
+    }
+  ]
+}

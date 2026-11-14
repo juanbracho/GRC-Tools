@@ -1,0 +1,217 @@
+{
+  "vendor_id": "github",
+  "name": "GitHub",
+  "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+  "status": "ok",
+  "status_detail": null,
+  "last_changed": "2026-11-13",
+  "subprocessors": [
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "amazon-web-services",
+      "name_as_listed": "Amazon Web Services Inc (AWS)",
+      "purpose": "Cloud Hosted Infrastructure, Data Hosting, AI Inference and AI Services",
+      "location": "United States",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "anthropic",
+      "name_as_listed": "Anthropic PBC",
+      "purpose": "AI Inference and AI Services",
+      "location": "United States",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "cerebras",
+      "name_as_listed": "Cerebras Systems Inc.",
+      "purpose": "AI Inference and AI Services",
+      "location": "United States",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "cloudflare",
+      "name_as_listed": "Cloudflare",
+      "purpose": "Content delivery service",
+      "location": "United States",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "datadome-solutions",
+      "name_as_listed": "DataDome Solutions, Inc.",
+      "purpose": "Security management",
+      "location": "United States, France",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "elastic",
+      "name_as_listed": "Elasticsearch, Inc.",
+      "purpose": "Cloud Hosted Infrastructure",
+      "location": "United States",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "fastly",
+      "name_as_listed": "Fastly",
+      "purpose": "Content delivery service",
+      "location": "United States",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "fireworks-ai",
+      "name_as_listed": "Fireworks AI",
+      "purpose": "AI Inference and AI Services",
+      "location": "United States, Germany, Iceland",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "fullstory",
+      "name_as_listed": "FullStory, Inc.",
+      "purpose": "Customer support ticketing analysis",
+      "location": "United States",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "google",
+      "name_as_listed": "Google Cloud Platform (GCP)",
+      "purpose": "Cloud Hosted Infrastructure, AI Inference and AI Services",
+      "location": "United States, Belgium, Singapore",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "hewlett-packard",
+      "name_as_listed": "Hewlett-Packard Limited",
+      "purpose": "Cloud Hosted Infrastructure",
+      "location": "United States",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "lambdatest",
+      "name_as_listed": "LambdaTest",
+      "purpose": "Cloud Hosted Infrastructure",
+      "location": "United States",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "microsoft",
+      "name_as_listed": "Microsoft (Azure)",
+      "purpose": "Cloud Hosted Infrastructure, Data Hosting, AI Inference and AI Services; Cognitive Services and customer support ticketing analysis; Technical Services",
+      "location": "United States, Canada, Chile, Mexico; United States; United States, Australia, Brazil, Canada, France, Japan, Norway, Spain, Sweden, Switzerland, United Kingdom",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "moveworks",
+      "name_as_listed": "Moveworks",
+      "purpose": "Customer support ticketing analysis",
+      "location": "United States",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "obsidian-security",
+      "name_as_listed": "Obsidian Security",
+      "purpose": "Security management",
+      "location": "United States",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "openai",
+      "name_as_listed": "OpenAI",
+      "purpose": "AI Inference and AI Services",
+      "location": "United States",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "oracle",
+      "name_as_listed": "Oracle America, Inc.",
+      "purpose": "Cloud Hosted Infrastructure",
+      "location": "United States",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "pusher",
+      "name_as_listed": "Pusher",
+      "purpose": "Building and managing real-time infrastructure for web and mobile applications",
+      "location": "United States",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "tines-automation",
+      "name_as_listed": "Tines Automation Inc.",
+      "purpose": "Security management",
+      "location": "United States",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "twilio",
+      "name_as_listed": "Twilio (SendGrid)",
+      "purpose": "SMS notification provider for 2 Factor Authentication",
+      "location": "United States",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "vonage",
+      "name_as_listed": "NexMo Inc (aka Vonage)",
+      "purpose": "SMS notification provider for 2 Factor Authentication",
+      "location": "United States",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "xai",
+      "name_as_listed": "xAI",
+      "purpose": "AI Inference and AI Services",
+      "location": "United States",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "github",
+      "subprocessor_id": "zendesk",
+      "name_as_listed": "Zendesk",
+      "purpose": "Customer support ticketing system",
+      "location": "United States",
+      "source": "https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors",
+      "date": "2026-11-13"
+    }
+  ]
+}

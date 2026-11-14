@@ -1,0 +1,316 @@
+{
+  "vendor_id": "stripe",
+  "name": "Stripe",
+  "source": "https://stripe.com/legal/service-providers",
+  "status": "ok",
+  "status_detail": null,
+  "last_changed": "2026-11-13",
+  "subprocessors": [
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "adish",
+      "name_as_listed": "Adish Co., Ltd.",
+      "purpose": "Provide Business User support",
+      "location": "Japan",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "amazon-web-services",
+      "name_as_listed": "Amazon Web Services, Inc.",
+      "purpose": "Cloud service provider; Cloud service provider for Stripe Data Pipeline",
+      "location": "United States; India",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "aml-rightsource",
+      "name_as_listed": "AML Rightsource",
+      "purpose": "Provide Business User support in several languages and timezones",
+      "location": "United States",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "cognizant-worldwide",
+      "name_as_listed": "Cognizant Worldwide Limited",
+      "purpose": "Provide Business User support in several languages and timezones",
+      "location": "Philippines, India",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "data-zoo",
+      "name_as_listed": "Data Zoo Pty Limited",
+      "purpose": "Identity verification for End Customers of Business Users",
+      "location": "Australia",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "databricks",
+      "name_as_listed": "Databricks, Inc.",
+      "purpose": "Cloud service provider for Stripe Data Pipeline",
+      "location": "United States",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "ekata",
+      "name_as_listed": "Ekata, Inc.",
+      "purpose": "Identity verification for End Customers of Business Users",
+      "location": "United States",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "freedompay",
+      "name_as_listed": "FreedomPay, Inc.",
+      "purpose": "Payment gateway services provider",
+      "location": "United States",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "front",
+      "name_as_listed": "FrontApp, Inc.",
+      "purpose": "Customer service tool that supports customer interactions e.g. email",
+      "location": "United States",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "google",
+      "name_as_listed": "Google LLC",
+      "purpose": "Cloud service provider for Stripe Data Pipeline",
+      "location": "United States",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "inscribeai",
+      "name_as_listed": "InscribeAI, Inc.",
+      "purpose": "identity verification for End Customers of Business Users",
+      "location": "United States",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "intuition-machines",
+      "name_as_listed": "Intuition Machines, Inc.",
+      "purpose": "Tool that provides hCaptcha for fraud prevention",
+      "location": "United States",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "jack-henry-and-associates",
+      "name_as_listed": "Jack Henry & Associates, Inc.",
+      "purpose": "Paper check scanning and verification for electronic clearance",
+      "location": "United States",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "january-technologies",
+      "name_as_listed": "January Technologies, Inc.",
+      "purpose": "Manages collections relating to credit cards",
+      "location": "United States",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "legalinccom",
+      "name_as_listed": "LegalInc.com, Inc.",
+      "purpose": "File incorporation documents in the State of Delaware",
+      "location": "United States",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "lexisnexis-risk-solutions-fl",
+      "name_as_listed": "LexisNexis Risk Solutions FL, Inc.",
+      "purpose": "Identity verification for End Customers of Business Users",
+      "location": "United States",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "loanprosoftware",
+      "name_as_listed": "LoanProSoftware, LLC",
+      "purpose": "Loan management services",
+      "location": "United States",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "lobcom",
+      "name_as_listed": "Lob.com, Inc.",
+      "purpose": "Identity verification for End Customers of Business Users",
+      "location": "United States",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "london-stock-exchange-group",
+      "name_as_listed": "London Stock Exchange Group plc",
+      "purpose": "Identity verification for End Customers of Business Users",
+      "location": "United States",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "microsoft",
+      "name_as_listed": "Microsoft Corporation (Microsoft Azure)",
+      "purpose": "Cloud Service Provider; Provide AI technology to improve the quality of user support operations; Cloud service provider for Stripe Data Pipeline",
+      "location": "United States",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "netstars",
+      "name_as_listed": "NETSTARS Co., Ltd.",
+      "purpose": "Payment method integration service provider",
+      "location": "Japan",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "payla-services",
+      "name_as_listed": "Payla Services GmbH",
+      "purpose": "Payment method integration service provider",
+      "location": "Germany",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "ppro-payment-services",
+      "name_as_listed": "PPRO Payment Services S.A.",
+      "purpose": "Payment method integration service provider",
+      "location": "Luxembourg",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "salesforce",
+      "name_as_listed": "Salesforce, Inc.",
+      "purpose": "Customer service platform that supports customer interactions e.g. email",
+      "location": "United States",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "shufti-pro",
+      "name_as_listed": "Shufti Pro Limited",
+      "purpose": "Identity verification for End Customers of Business Users",
+      "location": "United Kingdom",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "snowflake",
+      "name_as_listed": "Snowflake, Inc.",
+      "purpose": "Cloud Service Provider; Cloud service provider for Stripe Data Pipeline",
+      "location": "United States",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "sprinklr",
+      "name_as_listed": "Sprinklr, Inc.",
+      "purpose": "Tool to help manage incoming queries via social media",
+      "location": "United States",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "tdcx-sdn-bhd",
+      "name_as_listed": "TDCX (MY) SDN. BHD.",
+      "purpose": "Provide Business User support in several languages and timezones",
+      "location": "Malaysia",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "teleperformance",
+      "name_as_listed": "Teleperformance Colombia S.A.S.",
+      "purpose": "Provide Business User support in several languages and timezones",
+      "location": "Colombia",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "telus",
+      "name_as_listed": "TELUS International (Cda)",
+      "purpose": "Provide Business User support in several languages and timezones",
+      "location": "Ireland",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "trulioo-information-services",
+      "name_as_listed": "Trulioo Information Services, Inc.",
+      "purpose": "Identity verification for End Customers of Business Users",
+      "location": "Canada",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "twilio",
+      "name_as_listed": "Twilio, Inc .",
+      "purpose": "Cloud communications platform as a service including two factor authentication and user support",
+      "location": "United States",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "verifi",
+      "name_as_listed": "Verifi, Inc.",
+      "purpose": "Tool that helps resolve and reduce transaction disputes",
+      "location": "United States",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "stripe",
+      "subprocessor_id": "wns-global-services-international",
+      "name_as_listed": "WNS Global Services (UK) International Limited",
+      "purpose": "Provide Business User support in several languages and timezones",
+      "location": "United Kingdom, India",
+      "source": "https://stripe.com/legal/service-providers",
+      "date": "2026-11-13"
+    }
+  ]
+}

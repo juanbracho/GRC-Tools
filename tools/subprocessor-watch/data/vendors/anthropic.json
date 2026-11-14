@@ -1,0 +1,208 @@
+{
+  "vendor_id": "anthropic",
+  "name": "Anthropic (Claude)",
+  "source": "https://trust.anthropic.com/subprocessors",
+  "status": "ok",
+  "status_detail": null,
+  "last_changed": "2026-11-13",
+  "subprocessors": [
+    {
+      "vendor_id": "anthropic",
+      "subprocessor_id": "amazon-web-services",
+      "name_as_listed": "Amazon Web Services",
+      "purpose": "Cloud Infrastructure",
+      "location": "Worldwide",
+      "source": "https://trust.anthropic.com/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "anthropic",
+      "subprocessor_id": "arkose-labs",
+      "name_as_listed": "Arkose Labs",
+      "purpose": "Fraud and abuse detection",
+      "location": "United States",
+      "source": "https://trust.anthropic.com/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "anthropic",
+      "subprocessor_id": "boldr",
+      "name_as_listed": "Boldr",
+      "purpose": "User support",
+      "location": "Canada",
+      "source": "https://trust.anthropic.com/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "anthropic",
+      "subprocessor_id": "brave-search",
+      "name_as_listed": "Brave Search",
+      "purpose": "Web Search",
+      "location": "United States",
+      "source": "https://trust.anthropic.com/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "anthropic",
+      "subprocessor_id": "cloudflare",
+      "name_as_listed": "Cloudflare",
+      "purpose": "Traffic Routing (CDN)",
+      "location": "Worldwide (Local to Customer)",
+      "source": "https://trust.anthropic.com/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "anthropic",
+      "subprocessor_id": "elevenlabs",
+      "name_as_listed": "ElevenLabs",
+      "purpose": "Text to speech",
+      "location": "United States",
+      "source": "https://trust.anthropic.com/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "anthropic",
+      "subprocessor_id": "google",
+      "name_as_listed": "Google Cloud Platform",
+      "purpose": "Cloud infrastructure",
+      "location": "Worldwide",
+      "source": "https://trust.anthropic.com/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "anthropic",
+      "subprocessor_id": "intercom",
+      "name_as_listed": "Intercom",
+      "purpose": "User support",
+      "location": "United States",
+      "source": "https://trust.anthropic.com/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "anthropic",
+      "subprocessor_id": "intuition-machines",
+      "name_as_listed": "Intuition Machines, Inc. (hCaptcha)",
+      "purpose": "Fraud and abuse detection",
+      "location": "Worldwide",
+      "source": "https://trust.anthropic.com/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "anthropic",
+      "subprocessor_id": "iterable",
+      "name_as_listed": "Iterable",
+      "purpose": "Email communications",
+      "location": "United States",
+      "source": "https://trust.anthropic.com/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "anthropic",
+      "subprocessor_id": "microsoft",
+      "name_as_listed": "Microsoft Azure",
+      "purpose": "Cloud Infrastructure",
+      "location": "Worldwide",
+      "source": "https://trust.anthropic.com/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "anthropic",
+      "subprocessor_id": "nutun",
+      "name_as_listed": "Nutun",
+      "purpose": "User support",
+      "location": "South Africa",
+      "source": "https://trust.anthropic.com/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "anthropic",
+      "subprocessor_id": "palantir-federal-cloud-service",
+      "name_as_listed": "Palantir Federal Cloud Service (PFCS)",
+      "purpose": "FedRAMP Cloud",
+      "location": "United States",
+      "source": "https://trust.anthropic.com/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "anthropic",
+      "subprocessor_id": "parallel-web-systems",
+      "name_as_listed": "Parallel Web Systems, Inc.",
+      "purpose": "Web Search",
+      "location": "United States",
+      "source": "https://trust.anthropic.com/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "anthropic",
+      "subprocessor_id": "persona",
+      "name_as_listed": "Persona",
+      "purpose": "Fraud and abuse detection, identity verification",
+      "location": "United States",
+      "source": "https://trust.anthropic.com/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "anthropic",
+      "subprocessor_id": "sentry",
+      "name_as_listed": "Functional Software, dba Sentry",
+      "purpose": "Error Handling, User Support",
+      "location": "United States",
+      "source": "https://trust.anthropic.com/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "anthropic",
+      "subprocessor_id": "sift",
+      "name_as_listed": "Sift",
+      "purpose": "Fraud and abuse detection",
+      "location": "United States",
+      "source": "https://trust.anthropic.com/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "anthropic",
+      "subprocessor_id": "stripe",
+      "name_as_listed": "Stripe",
+      "purpose": "Billing",
+      "location": "United States",
+      "source": "https://trust.anthropic.com/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "anthropic",
+      "subprocessor_id": "turbopuffer",
+      "name_as_listed": "TurboPuffer",
+      "purpose": "Web Search",
+      "location": "United States",
+      "source": "https://trust.anthropic.com/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "anthropic",
+      "subprocessor_id": "twilio",
+      "name_as_listed": "Twilio",
+      "purpose": "Analytics, email/SMS communications",
+      "location": "United States",
+      "source": "https://trust.anthropic.com/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "anthropic",
+      "subprocessor_id": "workos",
+      "name_as_listed": "WorkOS",
+      "purpose": "Security, Single Sign-On",
+      "location": "United States",
+      "source": "https://trust.anthropic.com/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "anthropic",
+      "subprocessor_id": "yoti",
+      "name_as_listed": "Yoti",
+      "purpose": "Fraud and abuse detection, identity verification",
+      "location": "United Kingdom",
+      "source": "https://trust.anthropic.com/subprocessors",
+      "date": "2026-11-13"
+    }
+  ]
+}

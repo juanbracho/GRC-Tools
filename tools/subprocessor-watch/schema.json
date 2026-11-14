@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "grc-tools/shared-schema/v0.1",
+  "title": "GRC Tools shared data format v0.1 (copy used by Subprocessor Watch)",
+  "$defs": {
+    "slug": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+    "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}"},
+    "fields": {
+      "type": "object",
+      "required": ["name_as_listed", "purpose", "location"],
+      "properties": {
+        "name_as_listed": {"type": "string"},
+        "purpose": {"type": ["string", "null"]},
+        "location": {"type": ["string", "null"]}
+      }
+    },
+    "subprocessor_entry": {
+      "type": "object",
+      "required": ["vendor_id", "subprocessor_id", "name_as_listed", "purpose", "location", "source", "date"],
+      "properties": {
+        "vendor_id": {"$ref": "#/$defs/slug"},
+        "subprocessor_id": {"$ref": "#/$defs/slug"},
+        "name_as_listed": {"type": "string"},
+        "purpose": {"type": ["string", "null"]},
+        "location": {"type": ["string", "null"]},
+        "source": {"type": "string"},
+        "date": {"$ref": "#/$defs/date", "description": "first seen on this vendor's list"}
+      }
+    },
+    "change_event": {
+      "type": "object",
+      "required": ["vendor_id", "subprocessor_id", "change", "before", "after", "source", "date"],
+      "properties": {
+        "vendor_id": {"$ref": "#/$defs/slug"},
+        "subprocessor_id": {"$ref": "#/$defs/slug"},
+        "change": {"enum": ["added", "removed", "modified"]},
+        "before": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/fields"}]},
+        "after": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/fields"}]},
+        "source": {"type": "string"},
+        "date": {"$ref": "#/$defs/date"}
+      }
+    }
+  }
+}

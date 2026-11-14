@@ -1,0 +1,154 @@
+{
+  "vendor_id": "asana",
+  "name": "Asana",
+  "source": "https://asana.com/terms/subprocessors",
+  "status": "ok",
+  "status_detail": null,
+  "last_changed": "2026-11-13",
+  "subprocessors": [
+    {
+      "vendor_id": "asana",
+      "subprocessor_id": "amazon-web-services",
+      "name_as_listed": "Amazon Web Services, Inc.",
+      "purpose": "Cloud service provider; Artificial intelligence enabled functionality",
+      "location": "United States, Germany, Ireland, Australia, and Japan; United States, European Union",
+      "source": "https://asana.com/terms/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "asana",
+      "subprocessor_id": "amplitude",
+      "name_as_listed": "Amplitude, Inc.",
+      "purpose": "Analytics and Data Visualization",
+      "location": "United States",
+      "source": "https://asana.com/terms/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "asana",
+      "subprocessor_id": "anthropic",
+      "name_as_listed": "Anthropic, PBC",
+      "purpose": "LLM Provider; Artificial intelligence functionality for customer support; Artificial intelligence enabled functionality",
+      "location": "United States",
+      "source": "https://asana.com/terms/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "asana",
+      "subprocessor_id": "apple",
+      "name_as_listed": "Apple, Inc.",
+      "purpose": "Mobile push notifications",
+      "location": "United States",
+      "source": "https://asana.com/terms/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "asana",
+      "subprocessor_id": "cloudflare",
+      "name_as_listed": "Cloudflare, Inc.",
+      "purpose": "Model Context Protocol (MCP) server",
+      "location": "United States",
+      "source": "https://asana.com/terms/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "asana",
+      "subprocessor_id": "databricks",
+      "name_as_listed": "Databricks, Inc.",
+      "purpose": "Data Warehouse",
+      "location": "United States",
+      "source": "https://asana.com/terms/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "asana",
+      "subprocessor_id": "fireworks-ai",
+      "name_as_listed": "Fireworks AI, Inc.",
+      "purpose": "Cloud service provider",
+      "location": "United States",
+      "source": "https://asana.com/terms/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "asana",
+      "subprocessor_id": "google",
+      "name_as_listed": "Google, LLC (Google Cloud)",
+      "purpose": "Cloud service provider; Mobile push notifications; Artificial intelligence enabled functionality for Google Gemini",
+      "location": "United States, Belgium, Frankfurt, London, Madrid, Milan, and Zurich; United States; United States, Belgium, Frankfurt, London, Madrid, Milan and Zurich",
+      "source": "https://asana.com/terms/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "asana",
+      "subprocessor_id": "hyperdoc",
+      "name_as_listed": "Hyperdoc Inc. (Recall.ai)",
+      "purpose": "Transcription service provider",
+      "location": "United States, Germany, Japan",
+      "source": "https://asana.com/terms/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "asana",
+      "subprocessor_id": "intercom",
+      "name_as_listed": "Intercom, Inc",
+      "purpose": "Artificial intelligence chatbot for customer support",
+      "location": "United States",
+      "source": "https://asana.com/terms/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "asana",
+      "subprocessor_id": "openai",
+      "name_as_listed": "OpenAI OpCo, LLC",
+      "purpose": "LLM Provider; Artificial intelligence functionality for customer support; Artificial intelligence enabled functionality",
+      "location": "United States and Norway",
+      "source": "https://asana.com/terms/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "asana",
+      "subprocessor_id": "salesforce",
+      "name_as_listed": "Service Cloud (Salesforce, Inc.)",
+      "purpose": "Customer and sales support",
+      "location": "United States",
+      "source": "https://asana.com/terms/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "asana",
+      "subprocessor_id": "segment",
+      "name_as_listed": "Segment (Twilio, Inc.)",
+      "purpose": "Customer Data Platform",
+      "location": "United States",
+      "source": "https://asana.com/terms/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "asana",
+      "subprocessor_id": "tableau-software",
+      "name_as_listed": "Tableau Software, LLC (Salesforce, Inc.)",
+      "purpose": "Analytics and Data Visualization",
+      "location": "United States",
+      "source": "https://asana.com/terms/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "asana",
+      "subprocessor_id": "trayio",
+      "name_as_listed": "Tray.io",
+      "purpose": "Integration infrastructure provider",
+      "location": "United States",
+      "source": "https://asana.com/terms/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "asana",
+      "subprocessor_id": "vimeo",
+      "name_as_listed": "Vimeo, LLC",
+      "purpose": "Video messaging",
+      "location": "United States",
+      "source": "https://asana.com/terms/subprocessors",
+      "date": "2026-11-13"
+    }
+  ]
+}

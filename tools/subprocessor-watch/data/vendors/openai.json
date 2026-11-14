@@ -1,0 +1,154 @@
+{
+  "vendor_id": "openai",
+  "name": "OpenAI",
+  "source": "https://openai.com/en-US/policies/sub-processor-list/",
+  "status": "ok",
+  "status_detail": null,
+  "last_changed": "2026-11-13",
+  "subprocessors": [
+    {
+      "vendor_id": "openai",
+      "subprocessor_id": "accenture-international",
+      "name_as_listed": "Accenture International Limited",
+      "purpose": "Customer support API & ChatGPT Business: Moderation of content",
+      "location": "United States Canada Philippines",
+      "source": "https://openai.com/en-US/policies/sub-processor-list/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "openai",
+      "subprocessor_id": "amazon-web-services",
+      "name_as_listed": "Amazon Web Services, Inc.",
+      "purpose": "Cloud infrastructure",
+      "location": "United States",
+      "source": "https://openai.com/en-US/policies/sub-processor-list/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "openai",
+      "subprocessor_id": "cerebras",
+      "name_as_listed": "Cerebras",
+      "purpose": "Cloud infrastructure",
+      "location": "United States Canada",
+      "source": "https://openai.com/en-US/policies/sub-processor-list/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "openai",
+      "subprocessor_id": "cinder-technologies",
+      "name_as_listed": "Cinder Technologies, Inc.",
+      "purpose": "API & ChatGPT Business: Platform for content moderation ChatGPT Enterprise, Edu & ChatGPT Business : Platform for moderation of GPTs",
+      "location": "United States",
+      "source": "https://openai.com/en-US/policies/sub-processor-list/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "openai",
+      "subprocessor_id": "cloudflare",
+      "name_as_listed": "Cloudflare, Ltd.",
+      "purpose": "Content delivery network provider; Web Hosting",
+      "location": "Processing is performed at the data center ⁠ (opens in a new window) that is closest to the End User. For requests sent to us.api.openai.com or eu.api.openai.com, OpenAI uses Cloudflare Regional Services ⁠ (opens in a new window) so that TLS termination and HTTPS decryption occur within the selected processing region.; United States",
+      "source": "https://openai.com/en-US/policies/sub-processor-list/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "openai",
+      "subprocessor_id": "coreweave",
+      "name_as_listed": "CoreWeave, Inc.",
+      "purpose": "Cloud infrastructure",
+      "location": "Norway Spain Sweden United Kingdom United States",
+      "source": "https://openai.com/en-US/policies/sub-processor-list/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "openai",
+      "subprocessor_id": "fivetran",
+      "name_as_listed": "Fivetran, Inc.",
+      "purpose": "ETL provider",
+      "location": "United States",
+      "source": "https://openai.com/en-US/policies/sub-processor-list/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "openai",
+      "subprocessor_id": "google",
+      "name_as_listed": "Google Cloud Platform",
+      "purpose": "Cloud infrastructure",
+      "location": "Finland Japan Netherlands Norway Singapore United Kingdom United States",
+      "source": "https://openai.com/en-US/policies/sub-processor-list/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "openai",
+      "subprocessor_id": "merge-api",
+      "name_as_listed": "Merge API, Inc.**",
+      "purpose": "Infrastructure management",
+      "location": "Australia Canada France India Ireland Japan Singapore South Korea Sweden United Kingdom United States",
+      "source": "https://openai.com/en-US/policies/sub-processor-list/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "openai",
+      "subprocessor_id": "microsoft",
+      "name_as_listed": "Microsoft Corporation",
+      "purpose": "Cloud infrastructure",
+      "location": "Australia Belgium Brazil Canada Denmark France Germany India Indonesia Ireland Italy Japan Malaysia Mexico Netherlands New Zealand Norway Poland Singapore South Africa South Korea Spain Sweden Switzerland United Arab Emirates United Kingdom United States",
+      "source": "https://openai.com/en-US/policies/sub-processor-list/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "openai",
+      "subprocessor_id": "oracle",
+      "name_as_listed": "Oracle Cloud Infrastructure",
+      "purpose": "Cloud infrastructure",
+      "location": "Brazil Japan Malaysia Netherlands United Kingdom United States",
+      "source": "https://openai.com/en-US/policies/sub-processor-list/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "openai",
+      "subprocessor_id": "pylon-labs",
+      "name_as_listed": "Pylon Labs",
+      "purpose": "Customer support***",
+      "location": "United States",
+      "source": "https://openai.com/en-US/policies/sub-processor-list/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "openai",
+      "subprocessor_id": "salesforce",
+      "name_as_listed": "Salesforce",
+      "purpose": "Customer support",
+      "location": "Australia Brazil Canada France Germany India Indonesia Ireland Italy Japan Singapore South Africa South Korea Sweden Switzerland The Netherlands United Arab Emirates United Kingdom United States",
+      "source": "https://openai.com/en-US/policies/sub-processor-list/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "openai",
+      "subprocessor_id": "snowflake",
+      "name_as_listed": "Snowflake, Inc.",
+      "purpose": "Data warehousing",
+      "location": "United States",
+      "source": "https://openai.com/en-US/policies/sub-processor-list/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "openai",
+      "subprocessor_id": "taskus",
+      "name_as_listed": "TaskUs, LLC",
+      "purpose": "All Services : Customer support API & ChatGPT Business: Moderation of content ChatGPT Enterprise, Edu & ChatGPT Business : Moderation of GPTs",
+      "location": "Philippines",
+      "source": "https://openai.com/en-US/policies/sub-processor-list/",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "openai",
+      "subprocessor_id": "workos",
+      "name_as_listed": "WorkOS, Inc.**",
+      "purpose": "Cross-domain identity management",
+      "location": "United States",
+      "source": "https://openai.com/en-US/policies/sub-processor-list/",
+      "date": "2026-11-13"
+    }
+  ]
+}

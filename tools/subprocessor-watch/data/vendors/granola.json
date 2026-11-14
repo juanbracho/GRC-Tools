@@ -1,0 +1,163 @@
+{
+  "vendor_id": "granola",
+  "name": "Granola",
+  "source": "https://trust.granola.ai/subprocessors",
+  "status": "ok",
+  "status_detail": null,
+  "last_changed": "2026-11-13",
+  "subprocessors": [
+    {
+      "vendor_id": "granola",
+      "subprocessor_id": "amazon-web-services",
+      "name_as_listed": "Amazon Web Services",
+      "purpose": "Infrastructure & Hosting",
+      "location": "United States",
+      "source": "https://trust.granola.ai/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "granola",
+      "subprocessor_id": "anthropic",
+      "name_as_listed": "Anthropic, PBC",
+      "purpose": "AI Processing & Transcription",
+      "location": "United States",
+      "source": "https://trust.granola.ai/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "granola",
+      "subprocessor_id": "assemblyai",
+      "name_as_listed": "AssemblyAI, Inc.",
+      "purpose": "AI Processing & Transcription",
+      "location": "United States",
+      "source": "https://trust.granola.ai/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "granola",
+      "subprocessor_id": "braintrust",
+      "name_as_listed": "Braintrust",
+      "purpose": "AI Processing & Transcription",
+      "location": "United States",
+      "source": "https://trust.granola.ai/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "granola",
+      "subprocessor_id": "clickhouse",
+      "name_as_listed": "ClickHouse",
+      "purpose": "Infrastructure & Hosting",
+      "location": "United States",
+      "source": "https://trust.granola.ai/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "granola",
+      "subprocessor_id": "deepgram",
+      "name_as_listed": "Deepgram",
+      "purpose": "AI Processing & Transcription",
+      "location": "United States",
+      "source": "https://trust.granola.ai/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "granola",
+      "subprocessor_id": "fireworks-ai",
+      "name_as_listed": "Fireworks.ai",
+      "purpose": "AI Processing & Transcription",
+      "location": "United States",
+      "source": "https://trust.granola.ai/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "granola",
+      "subprocessor_id": "google",
+      "name_as_listed": "Google Cloud",
+      "purpose": "AI Processing & Transcription",
+      "location": "United States",
+      "source": "https://trust.granola.ai/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "granola",
+      "subprocessor_id": "knock",
+      "name_as_listed": "Knock",
+      "purpose": "Operations & Support",
+      "location": "United States",
+      "source": "https://trust.granola.ai/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "granola",
+      "subprocessor_id": "openai",
+      "name_as_listed": "OpenAI",
+      "purpose": "AI Processing & Transcription",
+      "location": "United States",
+      "source": "https://trust.granola.ai/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "granola",
+      "subprocessor_id": "parallel-web-systems",
+      "name_as_listed": "Parallel Web Systems Inc.",
+      "purpose": "AI Processing & Transcription",
+      "location": "United States",
+      "source": "https://trust.granola.ai/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "granola",
+      "subprocessor_id": "plain",
+      "name_as_listed": "Plain",
+      "purpose": "Operations & Support",
+      "location": "United Kingdom",
+      "source": "https://trust.granola.ai/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "granola",
+      "subprocessor_id": "stripe",
+      "name_as_listed": "Stripe, Inc.",
+      "purpose": "Operations & Support",
+      "location": "United States",
+      "source": "https://trust.granola.ai/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "granola",
+      "subprocessor_id": "turbopuffer",
+      "name_as_listed": "Turbopuffer",
+      "purpose": "Infrastructure & Hosting",
+      "location": "United States",
+      "source": "https://trust.granola.ai/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "granola",
+      "subprocessor_id": "twilio",
+      "name_as_listed": "Twilio",
+      "purpose": "Operations & Support",
+      "location": "United States",
+      "source": "https://trust.granola.ai/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "granola",
+      "subprocessor_id": "typesafe-ai",
+      "name_as_listed": "TypeSafe AI",
+      "purpose": "AI Processing & Transcription",
+      "location": "United States",
+      "source": "https://trust.granola.ai/subprocessors",
+      "date": "2026-11-13"
+    },
+    {
+      "vendor_id": "granola",
+      "subprocessor_id": "xai",
+      "name_as_listed": "xAI",
+      "purpose": "AI Processing & Transcription",
+      "location": "United States",
+      "source": "https://trust.granola.ai/subprocessors",
+      "date": "2026-11-13"
+    }
+  ]
+}
