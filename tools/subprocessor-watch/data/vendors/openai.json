@@ -2,8 +2,8 @@
   "vendor_id": "openai",
   "name": "OpenAI",
   "source": "https://openai.com/en-US/policies/sub-processor-list/",
-  "status": "ok",
-  "status_detail": null,
+  "status": "fetch_error",
+  "status_detail": "HTTP 403",
   "last_changed": "2026-11-13",
   "subprocessors": [
     {

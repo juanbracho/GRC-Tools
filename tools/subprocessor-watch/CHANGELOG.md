@@ -18,7 +18,7 @@ Generated automatically. Each entry links to the public page it came from.
 | [HubSpot](https://legal.hubspot.com/sub-processors-page) | 17 | 2026-11-13 | ✅ read ok |
 | [Monday.com](https://monday.com/l/privacy/sub-processors-subsidiaries-support/) | 26 | 2026-11-13 | ✅ read ok |
 | [Notion](https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734) | 30 | 2026-11-14 | ✅ read ok |
-| [OpenAI](https://openai.com/en-US/policies/sub-processor-list/) | 16 | 2026-11-13 | ✅ read ok |
+| [OpenAI](https://openai.com/en-US/policies/sub-processor-list/) | 16 | 2026-11-13 | ⚠️ fetch_error: HTTP 403 |
 | [Stripe](https://stripe.com/legal/service-providers) | 34 | 2026-11-13 | ✅ read ok |
 | [Zoom](https://www.zoom.com/en/trust/subprocessors/) | 22 | 2026-11-13 | ✅ read ok |
 

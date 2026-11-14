@@ -1,5 +1,49 @@
 [
   {
+    "id": "4508235ddffe",
+    "subprocessor_id": "fireworks-ai",
+    "name": "Fireworks AI",
+    "vendors": [
+      "Asana",
+      "Figma",
+      "GitHub",
+      "Granola"
+    ],
+    "title": "Cursor confirms security breach led to malicious Claude Code extension",
+    "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+    "feed": "BleepingComputer",
+    "published": "2026-11-14",
+    "words": [
+      "breach",
+      "hackers"
+    ],
+    "first_seen": "2026-11-14",
+    "on_watchlist": true
+  },
+  {
+    "id": "02fc28dac967",
+    "subprocessor_id": "fireworks-ai",
+    "name": "Fireworks AI",
+    "vendors": [
+      "Asana",
+      "Figma",
+      "GitHub",
+      "Granola"
+    ],
+    "title": "Uber Data Breach: Driver Licenses Stolen via Fireworks AI",
+    "link": "https://databreaches.net/2026/11/14/uber-data-breach-driver-licenses-stolen-via-fireworks-ai/",
+    "feed": "DataBreaches.net",
+    "published": "2026-11-14",
+    "words": [
+      "breach",
+      "hackers",
+      "compromised",
+      "stolen"
+    ],
+    "first_seen": "2026-11-14",
+    "on_watchlist": true
+  },
+  {
     "id": "ed4a82bfa913",
     "subprocessor_id": "railway",
     "name": "Railway",
