@@ -1,0 +1,72 @@
+name: Publish site (GitHub Pages)
+
+# Publishes each tool's generated page:
+#   https://<user>.github.io/<repo>/                      -> list of tools
+#   https://<user>.github.io/<repo>/subprocessor-watch/   -> Subprocessor Watch
+on:
+  push:
+    branches: [main]
+    paths:
+      - "tools/*/site/**"
+      - ".github/workflows/pages.yml"
+  workflow_run:                 # after every daily check (bot commits don't trigger "push")
+    workflows: ["Subprocessor Watch (daily)"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          ref: main               # always publish the latest data
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d  # v6.0.0
+
+      - name: Assemble site
+        run: |
+          mkdir -p _site/subprocessor-watch
+          cp tools/subprocessor-watch/site/index.html _site/subprocessor-watch/index.html
+          cat > _site/index.html <<'HTML'
+          <!doctype html>
+          <html lang="en"><head><meta charset="utf-8">
+          <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'none'; form-action 'none'">
+          <meta name="viewport" content="width=device-width,initial-scale=1">
+          <title>GRC Tools</title></head>
+          <body>
+          <pre>
+          GRC Tools: small Governance, Risk &amp; Compliance tools, built in public.
+          In constant development, for professional education.
+
+          &gt; <a href="subprocessor-watch/">subprocessor-watch</a>   who your vendors send data to, what changed, incident exposure
+
+          source: <a href="https://github.com/juanbracho/GRC-Tools">github.com/juanbracho/GRC-Tools</a>
+          </pre>
+          </body></html>
+          HTML
+
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9  # v5.0.0
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      pages: write              # publish to Pages
+      id-token: write           # required by deploy-pages to verify the deployment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346  # v5.0.1

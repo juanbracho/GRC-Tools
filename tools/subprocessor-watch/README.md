@@ -4,7 +4,7 @@
 
 > **In constant development, for professional education.** This is a learning project built in public. It uses public data only, it has real limitations (listed below), and it is not legal, compliance or security advice.
 
-Open `site/index.html` for the page. It has findings, search, a "my stack" view, incident exposure, recent changes and concentration risk. `CHANGELOG.md` has the same information as text.
+**Live page: [https://juanbracho.github.io/GRC-Tools/subprocessor-watch/](https://juanbracho.github.io/GRC-Tools/subprocessor-watch/)** (updated daily). Locally, open `site/index.html`. It has findings, search, a "my stack" view, incident exposure, recent changes and concentration risk. `CHANGELOG.md` has the same information as text.
 
 ---
 
@@ -26,7 +26,7 @@ Every day (GitHub Actions, 06:17 UTC), it:
 3. **Compares with yesterday** and records every addition, removal or change, with the date and a link to the source (`data/changes.jsonl`).
 4. **Scans five security-news feeds** for articles that name one of these fourth parties next to incident words. These become **leads to review**.
 5. **Matches the incident watchlist** (`incidents.yaml`, hand-curated with sources) against every list. It flags exposed vendors and disclosure gaps.
-6. **Rebuilds the page and changelog**, and commits only if something actually changed.
+6. **Rebuilds the page and changelog**, commits only if something actually changed, and republishes the live page (GitHub Pages).
 
 ## Quick start
 
