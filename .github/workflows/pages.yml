@@ -1,8 +1,8 @@
 name: Publish site (GitHub Pages)
 
 # Publishes each tool's generated page:
-#   https://<user>.github.io/<repo>/                      -> list of tools
-#   https://<user>.github.io/<repo>/subprocessor-watch/   -> Subprocessor Watch
+#   https://grc.juanbracho.com/                      -> list of tools (custom domain; github.io redirects here)
+#   https://grc.juanbracho.com/subprocessor-watch/   -> Subprocessor Watch
 on:
   push:
     branches: [main]

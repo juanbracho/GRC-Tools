@@ -4,7 +4,7 @@
 
 > **In constant development, for professional education.** This is a learning project built in public. It uses public data only, it has real limitations (listed below), and it is not legal, compliance or security advice.
 
-**Live page: [https://juanbracho.github.io/GRC-Tools/subprocessor-watch/](https://juanbracho.github.io/GRC-Tools/subprocessor-watch/)** (updated daily). Locally, open `site/index.html`. It has findings, search, a "my stack" view, incident exposure, recent changes and concentration risk. `CHANGELOG.md` has the same information as text.
+**Live page: [https://grc.juanbracho.com/subprocessor-watch/](https://grc.juanbracho.com/subprocessor-watch/)** (updated daily). Locally, open `site/index.html`. It has findings, search, a "my stack" view, incident exposure, recent changes and concentration risk. `CHANGELOG.md` has the same information as text.
 
 ---
 

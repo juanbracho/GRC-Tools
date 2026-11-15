@@ -9,7 +9,7 @@ Small, independent tools for **Governance, Risk & Compliance (GRC)** and **third
 
 | Tool | What it answers | Status |
 |---|---|---|
-| [Subprocessor Watch](tools/subprocessor-watch/) · **[open the page](https://juanbracho.github.io/GRC-Tools/subprocessor-watch/)** | Who do my vendors send data to, what changed, and which of those companies had a security incident? | v0.1, runs daily |
+| [Subprocessor Watch](tools/subprocessor-watch/) · **[open the page](https://grc.juanbracho.com/subprocessor-watch/)** | Who do my vendors send data to, what changed, and which of those companies had a security incident? | v0.1, runs daily |
 
 More tools will be added one at a time. Each one lives in its own folder with its own README, tests and data, so it can stand alone.
 
