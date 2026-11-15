@@ -64,7 +64,7 @@ python3.12 -m venv .venv
 
 ## How the output was checked
 
-- **70 automated tests** run on saved copies of the vendors' tables and on throwaway folders, never on live sites. They cover extraction per vendor, name matching, change detection (added, removed, changed, re-ordered, punctuation-only), the safety valve, incident matching, news matching (including XML-bomb protection), page escaping and the security policy.
+- **72 automated tests** run on saved copies of the vendors' tables and on throwaway folders, never on live sites. They cover extraction per vendor, name matching, change detection (added, removed, changed, re-ordered, punctuation-only), the safety valve, incident matching, news matching (including XML-bomb protection), page escaping and the security policy.
 - **A live spot-check** (`spotcheck.py`) compares what we extract with each vendor's whole live page. It reports tables we didn't read, names we extracted that aren't on the page, and watchlist companies mentioned outside the tables. Tables skipped on purpose (a vendor's own companies, change logs) are recorded with the reason.
 - **The page was checked in a real browser:** search, "my stack", saved choices, phone width, no-JavaScript mode, no security-policy errors.
 - **Mistakes caught along the way**, kept here because they show why the checks matter:
@@ -85,6 +85,7 @@ This tool shows the idea small, free and transparent: every number can be traced
 ## Limitations
 
 - **15 vendors, chosen by hand.** Some popular apps aren't covered: their lists sit behind a login (Linear), block automated visits (Perplexity, ClickUp), have moved (Slack, Dropbox, Zendesk), or aren't in table form (Canva, Intercom, Cursor).
+- **Some sites block automated visits from cloud servers.** OpenAI's page answers GitHub's servers with "HTTP 403", even though it opens fine from a home connection. The tool respects that and doesn't try to get around it. It keeps the last list it read successfully and shows "couldn't read since …" on the page. The daily job only fails when someone needs to act: tests fail, a page layout changes, or a vendor stays unreadable for 3 days or more.
 - **Published lists only.** A vendor can use a company without listing it, as the Notion and Fireworks AI case shows. An empty result means "not listed", not "not used".
 - **Extra rows of merged cells are skipped.** When a company spans two rows, the second row's details (often a second product or purpose) aren't captured yet.
 - **Page redesigns can break a vendor's reader.** The safety valve and spot-check catch this, but a person has to fix the config.

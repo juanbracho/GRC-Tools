@@ -133,3 +133,24 @@ def test_punctuation_or_case_only_edits_are_not_changes(tmp_path):
     run(tmp_path, page(*BASE))
     edited = [(n, p.upper() + ".", l + " ") for n, p, l in BASE]
     assert run(tmp_path, page(*edited), date="2026-11-13")["events"] == []
+
+
+def test_failing_since_is_kept_and_cleared(tmp_path):
+    run(tmp_path, page(*BASE))
+    assert state(tmp_path)["failing_since"] is None
+    run(tmp_path, error="HTTP 403", date="2026-11-14")
+    mtime = (tmp_path / "vendors" / "acme.json").stat().st_mtime_ns
+    r = run(tmp_path, error="HTTP 403", date="2026-11-15")
+    assert r["failing_since"] == "2026-11-14"                                     # first failing day kept
+    assert (tmp_path / "vendors" / "acme.json").stat().st_mtime_ns == mtime     # no daily rewrite while blocked
+    run(tmp_path, page(*BASE), date="2026-11-16")
+    assert state(tmp_path)["failing_since"] is None                             # cleared on recovery
+
+
+def test_job_goes_red_only_when_someone_must_act():
+    from subprocessor_watch.__main__ import needs_attention
+    ok = {"status": "ok", "failing_since": None}
+    assert not needs_attention([ok], "2026-11-15")
+    assert not needs_attention([ok, {"status": "fetch_error", "failing_since": "2026-11-14"}], "2026-11-15")
+    assert needs_attention([{"status": "fetch_error", "failing_since": "2026-11-12"}], "2026-11-15")  # 3 days
+    assert needs_attention([{"status": "parse_error", "failing_since": "2026-11-15"}], "2026-11-15")  # reader broke

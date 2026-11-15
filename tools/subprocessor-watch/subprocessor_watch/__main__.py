@@ -47,6 +47,25 @@ def write_outputs(data_dir: Path) -> None:
             path.write_text(text, encoding="utf-8")
 
 
+STALE_DAYS = 3
+
+
+def needs_attention(results: list[dict], today: str) -> bool:
+    """Should the scheduled job go red? Only when a person has to act:
+    - parse_error: the page layout changed and our reader needs fixing;
+    - fetch_error for STALE_DAYS days or more: blocked or down for a while.
+    A short fetch_error (a site briefly down, or blocking cloud IPs for a day)
+    keeps the last good list and is shown on the page, but doesn't fail the job."""
+    for r in results:
+        if r["status"] == "parse_error":
+            return True
+        if r["status"] == "fetch_error" and r.get("failing_since"):
+            days = (dt.date.fromisoformat(today) - dt.date.fromisoformat(r["failing_since"])).days
+            if days >= STALE_DAYS:
+                return True
+    return False
+
+
 def main(argv=None) -> int:
     p = argparse.ArgumentParser(description="Check vendors' public subprocessor lists for changes.")
     p.add_argument("--vendor", help="only check this vendor_id")
@@ -81,9 +100,10 @@ def main(argv=None) -> int:
     for r in results:
         note = "baseline" if r["baseline"] else f"{len(r['events'])} change(s)"
         line = f"{r['vendor_id']:12} {r['status']:12} {r['count']:4} subprocessors  {note}"
+        if r.get("failing_since"):
+            line += f"  [failing since {r['failing_since']}]"
         print(line + (f"  ({r['detail']})" if r["detail"] else ""))
-    # Exit 1 if any vendor failed, so the scheduled job shows up red and someone looks.
-    return 1 if any(r["status"] != "ok" for r in results) else 0
+    return 1 if needs_attention(results, args.date) else 0
 
 
 if __name__ == "__main__":

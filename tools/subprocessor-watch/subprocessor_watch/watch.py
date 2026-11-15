@@ -61,15 +61,19 @@ def check_vendor(vendor: dict, aliases: dict, data_dir: Path, fetch, today: str)
         entries = old["subprocessors"] if old else []
         last_changed = old["last_changed"] if old else None
 
+    # failing_since: first day of the current run of failures (None when the page reads fine).
+    # Stored once, so a vendor that stays blocked doesn't rewrite its file every day.
+    failing_since = None if status == "ok" else ((old or {}).get("failing_since") or today)
     new = {"vendor_id": vid, "name": vendor["name"], "source": source, "status": status,
-           "status_detail": detail, "last_changed": last_changed, "subprocessors": entries}
+           "status_detail": detail, "failing_since": failing_since, "last_changed": last_changed,
+           "subprocessors": entries}
     if new != old:
         _write_json(state_path, new)
     if events:
         with (data_dir / "changes.jsonl").open("a", encoding="utf-8") as f:
             for e in events:
                 f.write(json.dumps(e, ensure_ascii=False) + "\n")
-    return {"vendor_id": vid, "status": status, "detail": detail,
+    return {"vendor_id": vid, "status": status, "detail": detail, "failing_since": failing_since,
             "events": events, "baseline": old is None and status == "ok", "count": len(entries)}
 
 

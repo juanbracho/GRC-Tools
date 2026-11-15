@@ -249,7 +249,8 @@ def render(data_dir: Path, generated: str, incidents: list[dict] | None = None,
                '<tr><th>vendor</th><th>subprocessors</th><th>incidents</th><th>last change</th><th>page read</th></tr>')
     for v in vendors:
         st = '<span class="ok">● read ok</span>' if v["status"] == "ok" else \
-            f'<span class="err">● {escape(v["status"])}</span> <span class="dim">{escape(v["status_detail"] or "")}</span>'
+            (f'<span class="err">● couldn\'t read</span> <span class="dim">{escape(v["status_detail"] or "")}'
+             f'{" since " + escape(v["failing_since"]) if v.get("failing_since") else ""} · showing last good list</span>')
         out.append(f'<tr><td><a href="{safe_url(v["source"])}">{escape(v["name"])}</a></td>'
                    f'<td>{len(v["subprocessors"])}</td>'
                    + (f'<td class="err">⚠ {escape(", ".join(flags[v["vendor_id"]]))}</td>' if v["vendor_id"] in flags

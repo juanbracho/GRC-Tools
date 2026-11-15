@@ -88,7 +88,7 @@ def test_csp_hash_matches_inline_style(tmp_path):
 def test_error_status_is_visible(tmp_path):
     write_vendor(tmp_path, "a", "A", [], status="parse_error")
     html = site.render(tmp_path, "2026-11-13")
-    assert "1 error(s)" in html and "parse_error" in html
+    assert "1 error(s)" in html and "couldn't read" in html and "showing last good list" in html
 
 
 def test_two_vendor_parties_fold_into_details(tmp_path):
