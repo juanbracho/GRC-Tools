@@ -1,5 +1,28 @@
 [
   {
+    "id": "e35104c2fc40",
+    "subprocessor_id": "fireworks-ai",
+    "name": "Fireworks AI",
+    "vendors": [
+      "Asana",
+      "Figma",
+      "GitHub",
+      "Granola"
+    ],
+    "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+    "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+    "feed": "The Hacker News",
+    "published": "2026-11-15",
+    "words": [
+      "breach",
+      "compromise",
+      "exposed",
+      "stolen"
+    ],
+    "first_seen": "2026-11-15",
+    "on_watchlist": true
+  },
+  {
     "id": "4508235ddffe",
     "subprocessor_id": "fireworks-ai",
     "name": "Fireworks AI",

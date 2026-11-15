@@ -4,6 +4,7 @@
   "source": "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734",
   "status": "ok",
   "status_detail": null,
+  "failing_since": null,
   "last_changed": "2026-11-14",
   "subprocessors": [
     {

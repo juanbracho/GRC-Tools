@@ -4,6 +4,7 @@
   "source": "https://openai.com/en-US/policies/sub-processor-list/",
   "status": "fetch_error",
   "status_detail": "HTTP 403",
+  "failing_since": "2026-11-15",
   "last_changed": "2026-11-13",
   "subprocessors": [
     {

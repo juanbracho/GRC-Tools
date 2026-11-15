@@ -4,6 +4,7 @@
   "source": "https://www.atlassian.com/legal/sub-processors",
   "status": "ok",
   "status_detail": null,
+  "failing_since": null,
   "last_changed": "2026-11-14",
   "subprocessors": [
     {
