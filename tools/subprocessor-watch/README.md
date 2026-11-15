@@ -54,6 +54,8 @@ python3.12 -m venv .venv
 
 **Changes the vendor didn't make are not reported.** Re-ordered rows, punctuation or case edits, and our own name-matching improvements (aliases) never show up as vendor changes.
 
+**Generated files are regenerated, never merged by hand.** If someone pushes while the daily run is working, the bot's page and data can conflict with the newer `main`. `publish.sh` doesn't try to merge them. It moves to the latest `main`, runs the watcher again there, and pushes, retrying up to 3 times.
+
 **The first run is a baseline.** A new vendor's whole list is recorded once, not announced as 30 "additions".
 
 **Incidents: a human decides what is real.** The news scan produces leads. Name matching is noisy: "Warp", "Plain" and "Front" are also ordinary words, and Google is in the news every day. So names that are common words are skipped, very large companies only match when the name and a strong incident word are in the headline, and only a person moves a lead into `incidents.yaml`, with a source.

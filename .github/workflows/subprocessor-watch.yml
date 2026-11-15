@@ -23,6 +23,8 @@ jobs:
         working-directory: tools/subprocessor-watch
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          ref: ${{ github.ref_name }}   # start from the latest commit, not the one current when the run was queued
       - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0  # v7.1.0
         with:
           python-version-file: tools/subprocessor-watch/.python-version
@@ -42,18 +44,11 @@ jobs:
           ./daily.sh
           echo "status=$?" >> "$GITHUB_OUTPUT"
 
-      - name: Commit updated data (only if something changed)
+      - name: Commit and push updated data (only if something changed)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data CHANGELOG.md site
-          if git diff --cached --quiet; then
-            echo "No changes today."
-          else
-            git commit -m "Subprocessor Watch: daily update $(date -u +%F)"
-            git pull --rebase origin "${GITHUB_REF_NAME}"
-            git push origin "HEAD:${GITHUB_REF_NAME}"
-          fi
+          ./publish.sh "${GITHUB_REF_NAME}"
 
       - name: Fail visibly if a test or vendor page failed
         if: steps.watch.outputs.status != '0'
