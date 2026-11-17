@@ -41,6 +41,8 @@ def render(data_dir: Path, incidents: list[dict] | None = None) -> str:
              "| Vendor | Subprocessors | Last change | Page read |", "|---|---|---|---|"]
     for v in vendors:
         status = "✅ read ok" if v["status"] == "ok" else f"⚠️ {v['status']}: {esc(v['status_detail'])}"
+        if v.get("checked_by_hand"):
+            status += f" (checked by hand {v['checked_by_hand']})"
         lines.append(f"| [{esc(v['name'])}]({v['source']}) | {len(v['subprocessors'])} "
                      f"| {v['last_changed'] or '—'} | {status} |")
 

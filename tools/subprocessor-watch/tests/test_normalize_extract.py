@@ -32,7 +32,7 @@ def test_aliases_map_variants_to_one_id():
 
 
 @pytest.mark.parametrize("vendor_id, unique", [
-    ("github", 23), ("atlassian", 26), ("asana", 16), ("openai", 16), ("hubspot", 17), ("figma", 44),
+    ("github", 23), ("atlassian", 26), ("asana", 16), ("hubspot", 17), ("figma", 44),
     ("zoom", 22), ("airtable", 23), ("stripe", 34), ("cloudflare", 12), ("monday", 26),
     # rendered in a browser (Vanta trust centers, Notion); fixtures saved after rendering
     ("anthropic", 22), ("fathom", 30), ("granola", 17), ("notion", 29)])

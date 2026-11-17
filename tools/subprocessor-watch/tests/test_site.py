@@ -98,3 +98,10 @@ def test_two_vendor_parties_fold_into_details(tmp_path):
     html = site.render(tmp_path, "2026-11-13")
     top, _, folded = html.partition("1 more shared by 2 vendors")
     assert "<td>AWS</td>" in top and "X Ltd." in folded and "X Ltd.**" not in html.split("ls vendors/")[0]
+
+
+def test_status_shows_checked_by_hand_date(tmp_path):
+    write_vendor(tmp_path, "a", "A", [("aws", "AWS")])
+    p = tmp_path / "vendors" / "a.json"
+    p.write_text(p.read_text().replace('"status": "ok"', '"status": "ok", "checked_by_hand": "2026-11-15"'))
+    assert "checked by hand 2026-11-15" in site.render(tmp_path, "2026-11-15")

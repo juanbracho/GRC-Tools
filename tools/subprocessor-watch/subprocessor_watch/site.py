@@ -248,7 +248,9 @@ def render(data_dir: Path, generated: str, incidents: list[dict] | None = None,
     out.append('<h2>status<span class="dim">"read ok" = we could read the list. It is not a safety rating.</span></h2><div class="out scroll"><table>'
                '<tr><th>vendor</th><th>subprocessors</th><th>incidents</th><th>last change</th><th>page read</th></tr>')
     for v in vendors:
-        st = '<span class="ok">● read ok</span>' if v["status"] == "ok" else \
+        hand = (f' <span class="dim">· checked by hand {escape(v["checked_by_hand"])}</span>'
+                if v.get("checked_by_hand") else "")
+        st = f'<span class="ok">● read ok</span>{hand}' if v["status"] == "ok" else \
             (f'<span class="err">● couldn\'t read</span> <span class="dim">{escape(v["status_detail"] or "")}'
              f'{" since " + escape(v["failing_since"]) if v.get("failing_since") else ""} · showing last good list</span>')
         out.append(f'<tr><td><a href="{safe_url(v["source"])}">{escape(v["name"])}</a></td>'

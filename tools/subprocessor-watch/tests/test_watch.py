@@ -154,3 +154,21 @@ def test_job_goes_red_only_when_someone_must_act():
     assert not needs_attention([ok, {"status": "fetch_error", "failing_since": "2026-11-14"}], "2026-11-15")
     assert needs_attention([{"status": "fetch_error", "failing_since": "2026-11-12"}], "2026-11-15")  # 3 days
     assert needs_attention([{"status": "parse_error", "failing_since": "2026-11-15"}], "2026-11-15")  # reader broke
+
+
+def test_manual_vendors_are_skipped_daily_but_run_by_hand():
+    from subprocessor_watch.__main__ import select_vendors
+    vendors = [{"vendor_id": "a"}, {"vendor_id": "blocked", "manual": True}]
+    assert [v["vendor_id"] for v in select_vendors(vendors, None)] == ["a"]
+    assert [v["vendor_id"] for v in select_vendors(vendors, "blocked")] == ["blocked"]
+    assert select_vendors(vendors, "nope") == []
+
+
+def test_manual_vendor_records_when_it_was_checked_by_hand(tmp_path):
+    manual = {**VENDOR, "manual": True}
+    check_vendor(manual, {}, tmp_path, FakeFetch(page(*BASE)), "2026-11-15")
+    assert state(tmp_path)["checked_by_hand"] == "2026-11-15"
+    check_vendor(manual, {}, tmp_path, FakeFetch(error="HTTP 403"), "2026-11-20")
+    assert state(tmp_path)["checked_by_hand"] == "2026-11-15"  # a failed try keeps the last good date
+    run(tmp_path, page(*BASE), date="2026-11-21")               # non-manual vendors never get the field
+    assert "checked_by_hand" not in state(tmp_path)

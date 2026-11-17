@@ -13,7 +13,7 @@
 When you buy a SaaS product, your data usually doesn't stay with that vendor. It flows on to *their* suppliers: cloud hosts, AI model providers, support desks. Under privacy laws like GDPR, vendors publish these "subprocessors" in a list, but the lists are long, change quietly, and almost nobody reads them. Those suppliers are your **fourth parties**, and their incidents become your incidents.
 
 Two examples from this tool's own data (as of 2026-11-14):
-- **Concentration risk:** Google sits behind all 15 watched vendors, AWS behind 14 and OpenAI behind 12. One outage or breach there reaches most of the stack at once.
+- **Concentration risk:** Google sits behind all 14 watched vendors, AWS behind 13 and OpenAI behind 12. One outage or breach there reaches most of the stack at once.
 - **A disclosure gap:** Notion publicly confirmed it was affected by the October 2026 Fireworks AI incident, but Fireworks AI is not on Notion's public subprocessor list. That's a question to ask the vendor.
 
 Related controls (our own paraphrase): ISO/IEC 27001 Annex A **5.19–5.22**, on managing information security in supplier relationships, including monitoring supplier changes. NIST CSF 2.0 **GV.SC** covers supply-chain risk management.
@@ -21,7 +21,7 @@ Related controls (our own paraphrase): ISO/IEC 27001 Annex A **5.19–5.22**, on
 ## What it does
 
 Every day (GitHub Actions, 06:17 UTC), it:
-1. **Reads each vendor's public subprocessor page** (15 vendors today). Plain pages are fetched directly. Pages drawn by JavaScript (Vanta trust centers, Notion) are rendered in a headless browser.
+1. **Reads each vendor's public subprocessor page** (14 vendors today). Plain pages are fetched directly. Pages drawn by JavaScript (Vanta trust centers, Notion) are rendered in a headless browser.
 2. **Extracts the companies** (name, purpose, location) and gives each one a stable ID. "AWS", "Amazon Web Services, Inc." and "Amazon Web Services EMEA SARL" all become `amazon-web-services`.
 3. **Compares with yesterday** and records every addition, removal or change, with the date and a link to the source (`data/changes.jsonl`).
 4. **Scans five security-news feeds** for articles that name one of these fourth parties next to incident words. These become **leads to review**.
@@ -86,8 +86,8 @@ This tool shows the idea small, free and transparent: every number can be traced
 
 ## Limitations
 
-- **15 vendors, chosen by hand.** Some popular apps aren't covered: their lists sit behind a login (Linear), block automated visits (Perplexity, ClickUp), have moved (Slack, Dropbox, Zendesk), or aren't in table form (Canva, Intercom, Cursor).
-- **Some sites block automated visits from cloud servers.** OpenAI's page answers GitHub's servers with "HTTP 403", even though it opens fine from a home connection. The tool respects that and doesn't try to get around it. It keeps the last list it read successfully and shows "couldn't read since …" on the page. The daily job only fails when someone needs to act: tests fail, a page layout changes, or a vendor stays unreadable for 3 days or more.
+- **14 vendors, chosen by hand.** Some popular apps aren't covered: their lists sit behind a login (Linear), block automated visits (OpenAI, Perplexity, ClickUp), have moved (Slack, Dropbox, Zendesk), or aren't in table form (Canva, Intercom, Cursor).
+- **Some sites block automated visits from cloud servers.** The tool respects that and never tries to get around it. OpenAI was watched at first, then put a bot challenge in front of its page (first for cloud servers, then for every automated visit), so it was removed as a watched vendor. It still appears as a fourth party on other vendors' lists. A vendor that blocks only cloud servers can be marked `manual: true`: the daily run skips it, it's refreshed by hand (`python -m subprocessor_watch --vendor <id>`), and the page shows "checked by hand <date>". For a vendor that is briefly unreachable, the tool keeps the last list it read successfully and shows "couldn't read since …". The daily job only fails when someone needs to act: tests fail, a page layout changes, or a vendor stays unreadable for 3 days or more.
 - **Published lists only.** A vendor can use a company without listing it, as the Notion and Fireworks AI case shows. An empty result means "not listed", not "not used".
 - **Extra rows of merged cells are skipped.** When a company spans two rows, the second row's details (often a second product or purpose) aren't captured yet.
 - **Page redesigns can break a vendor's reader.** The safety valve and spot-check catch this, but a person has to fix the config.

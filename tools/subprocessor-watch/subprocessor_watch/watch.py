@@ -67,6 +67,9 @@ def check_vendor(vendor: dict, aliases: dict, data_dir: Path, fetch, today: str)
     new = {"vendor_id": vid, "name": vendor["name"], "source": source, "status": status,
            "status_detail": detail, "failing_since": failing_since, "last_changed": last_changed,
            "subprocessors": entries}
+    if vendor.get("manual"):
+        # Refreshed by hand: show visitors when it was last read successfully.
+        new["checked_by_hand"] = today if status == "ok" else (old or {}).get("checked_by_hand")
     if new != old:
         _write_json(state_path, new)
     if events:

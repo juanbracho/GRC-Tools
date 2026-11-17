@@ -50,6 +50,14 @@ def write_outputs(data_dir: Path) -> None:
 STALE_DAYS = 3
 
 
+def select_vendors(vendors: list[dict], vendor_id: str | None) -> list[dict]:
+    """Which vendors this run checks. ``manual: true`` vendors block automated visits from
+    cloud servers, so the daily run skips them; they are refreshed by hand with ``--vendor ID``."""
+    if vendor_id:
+        return [v for v in vendors if v["vendor_id"] == vendor_id]
+    return [v for v in vendors if not v.get("manual")]
+
+
 def needs_attention(results: list[dict], today: str) -> bool:
     """Should the scheduled job go red? Only when a person has to act:
     - parse_error: the page layout changed and our reader needs fixing;
@@ -74,12 +82,12 @@ def main(argv=None) -> int:
     p.add_argument("--no-leads", action="store_true", help="skip the security-news scan for incident leads")
     args = p.parse_args(argv)
 
-    vendors, aliases = load_config()
-    if args.vendor:
-        vendors = [v for v in vendors if v["vendor_id"] == args.vendor]
-        if not vendors:
-            print(f"unknown vendor_id: {args.vendor}", file=sys.stderr)
-            return 2
+    all_vendors, aliases = load_config()
+    vendors = select_vendors(all_vendors, args.vendor)
+    if args.vendor and not vendors:
+        print(f"unknown vendor_id: {args.vendor}", file=sys.stderr)
+        return 2
+    skipped = [v["vendor_id"] for v in all_vendors if v not in vendors and v.get("manual")]
 
     data_dir = ROOT / "data"
     results = []
@@ -103,6 +111,8 @@ def main(argv=None) -> int:
         if r.get("failing_since"):
             line += f"  [failing since {r['failing_since']}]"
         print(line + (f"  ({r['detail']})" if r["detail"] else ""))
+    if skipped and not args.render_only:
+        print(f"skipped (refreshed by hand): {', '.join(skipped)}")
     return 1 if needs_attention(results, args.date) else 0
 
 

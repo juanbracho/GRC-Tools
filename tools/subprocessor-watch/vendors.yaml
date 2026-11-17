@@ -37,14 +37,6 @@ vendors:
       - heading: Feature-Specific Subprocessors
         columns: {name: 0, purpose: 1, location: 2}
 
-  - vendor_id: openai
-    name: OpenAI
-    subprocessor_url: https://openai.com/en-US/policies/sub-processor-list/
-    reviewed_skip: [1]   # spot-check reviewed: OpenAI's own entities
-    tables:
-      - heading: Third Party Sub-processors
-        columns: {name: 0, purpose: 3, location: 2}
-
   - vendor_id: hubspot
     name: HubSpot
     subprocessor_url: https://legal.hubspot.com/sub-processors-page
