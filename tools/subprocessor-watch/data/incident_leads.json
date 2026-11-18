@@ -1,5 +1,38 @@
 [
   {
+    "id": "766d30b69e06",
+    "subprocessor_id": "google",
+    "name": "Google",
+    "vendors": [
+      "Airtable",
+      "Anthropic (Claude)",
+      "Asana",
+      "Atlassian",
+      "Cloudflare",
+      "Fathom",
+      "Figma",
+      "GitHub",
+      "Granola",
+      "HubSpot",
+      "Monday.com",
+      "Notion",
+      "Stripe",
+      "Zoom"
+    ],
+    "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+    "link": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+    "feed": "The Hacker News",
+    "published": "2026-11-18",
+    "words": [
+      "breach",
+      "hackers",
+      "compromise",
+      "stolen"
+    ],
+    "first_seen": "2026-11-18",
+    "on_watchlist": false
+  },
+  {
     "id": "e35104c2fc40",
     "subprocessor_id": "fireworks-ai",
     "name": "Fireworks AI",
