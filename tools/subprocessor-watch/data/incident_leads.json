@@ -1,5 +1,29 @@
 [
   {
+    "id": "54e915c677cf",
+    "subprocessor_id": "microsoft",
+    "name": "Microsoft",
+    "vendors": [
+      "Anthropic (Claude)",
+      "Atlassian",
+      "Figma",
+      "GitHub",
+      "Monday.com",
+      "Stripe",
+      "Zoom"
+    ],
+    "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
+    "link": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+    "feed": "BleepingComputer",
+    "published": "2026-11-18",
+    "words": [
+      "hackers",
+      "compromised"
+    ],
+    "first_seen": "2026-11-19",
+    "on_watchlist": false
+  },
+  {
     "id": "766d30b69e06",
     "subprocessor_id": "google",
     "name": "Google",
