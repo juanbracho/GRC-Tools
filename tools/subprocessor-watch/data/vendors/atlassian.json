@@ -2,9 +2,9 @@
   "vendor_id": "atlassian",
   "name": "Atlassian",
   "source": "https://www.atlassian.com/legal/sub-processors",
-  "status": "ok",
-  "status_detail": null,
-  "failing_since": null,
+  "status": "parse_error",
+  "status_detail": "no table matching 'Third-Party Sub-processors' (nth=None)",
+  "failing_since": "2026-11-20",
   "last_changed": "2026-11-14",
   "subprocessors": [
     {

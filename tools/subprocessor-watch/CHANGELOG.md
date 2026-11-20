@@ -9,7 +9,7 @@ Generated automatically. Each entry links to the public page it came from.
 | [Airtable](https://www.airtable.com/company/subprocessors) | 23 | 2026-11-13 | ✅ read ok |
 | [Anthropic \(Claude\)](https://trust.anthropic.com/subprocessors) | 22 | 2026-11-13 | ✅ read ok |
 | [Asana](https://asana.com/terms/subprocessors) | 16 | 2026-11-13 | ✅ read ok |
-| [Atlassian](https://www.atlassian.com/legal/sub-processors) | 26 | 2026-11-14 | ✅ read ok |
+| [Atlassian](https://www.atlassian.com/legal/sub-processors) | 26 | 2026-11-14 | ⚠️ parse_error: no table matching 'Third-Party Sub-processors' \(nth=None\) |
 | [Cloudflare](https://www.cloudflare.com/gdpr/subprocessors/cloudflare-services/) | 12 | 2026-11-13 | ✅ read ok |
 | [Fathom](https://trust.fathom.video/subprocessors) | 30 | 2026-11-13 | ✅ read ok |
 | [Figma](https://www.figma.com/sub-processors/) | 44 | 2026-11-13 | ✅ read ok |
